@@ -6,9 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-
+    
     p {
+        color: white;
         font-weight: 600;
     }
 }
@@ -38,7 +38,6 @@
 
 
     & li {
-        list-style: none;
         margin-right: 30px;
         display: flex;
         flex-direction: column;

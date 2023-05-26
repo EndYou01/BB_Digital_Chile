@@ -1,12 +1,13 @@
+import InitialSection from "../components/initSection/initialSection"
 
 
 
 const IndexPage = () => {
-  return (
-    <div>
-        <h1>IndexPage</h1>
-    </div>
-  )
+	return (
+		<div>
+			<InitialSection />
+		</div>
+	)
 }
 
 export default IndexPage

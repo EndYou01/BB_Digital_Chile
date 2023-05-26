@@ -13,17 +13,6 @@ p {
 	font-weight: 400;
 }
 
-// .p1{
-//   font-family: Quicksand;
-// }
-// .p2{
-//   font-family: Francois One, serif;
-// }
-// .p3{
-//   font-family: Gilda Display, serif;
-// }
-
-
 * {
 	box-sizing: border-box;
 }
@@ -41,4 +30,28 @@ li,
 a {
 	margin: 0px;
 	font-size: 1.2rem;
+	color: $secundary;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+h2{
+	color: $secundary;
+	font-family: Francois One, serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+ul{
+	padding-inline-start: 0;
+}
+
+li{
+	list-style: none;
+}
+*{
+	text-decoration: none;
 }
