@@ -1,66 +1,31 @@
 html,
 body {
-  /* theme */
-  --main-color: rgb(19, 48, 91);
-  --secondary-color: rgb(226, 70, 48);
-  --third-color: rgb(226, 70, 48);
-
-  background-color: rgb(20, 20, 20);
-  color: rgb(200, 200, 200);
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  overflow-x: hidden;
+	padding: 0;
+	margin: 0;
 }
-
-.body-dark-mode{
-  background-color: rgb(255, 255, 255);
-
-  .about_container_text{
-    color: black;
-  }
-
-  h1{
-    color: var(--secondary-color);
-  }
-
-  .wavecontent h1{
-    color: white;
-  }
-
-  .center{
-    color: var(--secondary-color);
-  }
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
-  margin: 30px auto !important;
-}
-
-
 
 a {
-  color: inherit;
-  text-decoration: none;
+	font-family: Francois One, serif;
 }
 
-.Colorh1 {
-  justify-content: left;
-  color: rgb(226, 70, 48);
-  font-size: 3rem;
-  margin-top: 100px;
+p {
+	font-family: Quicksand;
+	font-weight: 400;
 }
 
-.link {
-  color: var(--third-color)!important;
-  text-decoration: underline;
-}
+// .p1{
+//   font-family: Quicksand;
+// }
+// .p2{
+//   font-family: Francois One, serif;
+// }
+// .p3{
+//   font-family: Gilda Display, serif;
+// }
+
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 h1,
@@ -68,37 +33,12 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0px;
-  color: white;
+	margin: 0px;
 }
 
 p,
 li,
 a {
-  margin: 0px;
-  color: rgb(200, 200, 200);
-  font-size: 1.2rem;
-}
-
-@media only screen and (min-width: 500px) {}
-
-@media only screen and (min-width: 1200px) {}
-
-@media only screen and (max-width: 900px) {
-  p,
-  li,
-  a {
-    margin: 0px;
-    color: rgb(200, 200, 200);
-    font-size: 0.9rem;
-  }
-  .Colorh1 {
-    font-size: 2rem;
-  }
-}
-
-.color_dark{
-  p, li, a{
-    color: black;
-  }
+	margin: 0px;
+	font-size: 1.2rem;
 }

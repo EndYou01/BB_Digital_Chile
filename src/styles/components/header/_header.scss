@@ -1,0 +1,110 @@
+.banda_naranja {
+    width: 100%;
+    height: 40px;
+    background-color: $primary;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    p {
+        font-weight: 600;
+    }
+}
+
+.header_logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_image {
+    width: 400px;
+    height: auto;
+    margin: 40px 0;
+}
+
+.navbar_section {
+    width: 100%;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+
+    & li {
+        list-style: none;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navigation_button {
+    text-decoration: none;
+    color: $secundary;
+
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+    &:hover {
+        color: lighten($color: $primary, $amount: 20);
+    }
+}
+
+.navigation_button_active {
+    color: $primary;
+    background-image: url(/src/assets/main/home-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: 50px;
+
+    &:hover{
+        color: $primary;
+    }
+}
+
+.header_underline {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.menu_icons_section {
+    margin-left: 20px;
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+}
+
+.menu_icon {
+    color: $secundary;
+    width: 25px;
+    height: auto;
+}
+
+.shopingCar_container{
+    position: relative;
+}
+
+.shopingCar_counter{
+    position: absolute;
+    color: white;
+
+    font-size: 14px;
+
+    width: 17px;
+    height: 17px;
+
+    background-color: $primary;
+    border-radius: 50%;
+    text-align: center;
+    top: -2px;
+    right: -5px;
+}
