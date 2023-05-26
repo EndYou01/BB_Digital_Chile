@@ -1,18 +1,12 @@
-/* eslint-disable no-unused-vars */
-
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom'
 
 import { AiOutlineHeart } from "react-icons/ai";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
-
-
+import HomeLink from './homeLink';
 
 
 const Header = () => {
 
-	const [activeButton, setActiveButton] = useState('home');
 
 	return (
 		<header>
@@ -25,63 +19,31 @@ const Header = () => {
 			<div className="navbar_section">
 				<ul className='navbar'>
 					<li>
-						<NavLink
-							className={activeButton == 'home' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('home')}
-							to='/home'
-						>
-							Home
-						</NavLink>
+						<HomeLink link='home' />
+					</li>
+					<li>
+						<HomeLink link='shop features' />
+					</li>
+
+
+					<li>
+						<HomeLink link='Clothes' />
+
 					</li>
 
 					<li>
-						<NavLink
-							className={activeButton == 'shopfeatures' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('shopfeatures')}
-							to='/shopfeatures'
-						>
-							Shop Features
-						</NavLink>
+						<HomeLink link='Pages' />
+
 					</li>
 
 					<li>
-						<NavLink
-							className={activeButton == 'clothes' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('clothes')}
-							to='/clothes'
-						>
-							Clothes
-						</NavLink>
+						<HomeLink link='shortcodes' />
+
 					</li>
 
 					<li>
-						<NavLink
-							className={activeButton == 'pages' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('pages')}
-							to='/pages'
-						>
-							Pages
-						</NavLink>
-					</li>
+						<HomeLink link='post types' />
 
-					<li>
-						<NavLink
-							className={activeButton == 'shortcodes' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('shortcodes')}
-							to='/shortcodes'
-						>
-							Shortcodes
-						</NavLink>
-					</li>
-
-					<li>
-						<NavLink
-							className={activeButton == 'posttypes' ? 'navigation_button navigation_button_active' : 'navigation_button'}
-							onClick={() => setActiveButton('posttypes')}
-							to='/posttypes'
-						>
-							Post Types
-						</NavLink>
 					</li>
 
 					<li>
