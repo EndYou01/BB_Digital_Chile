@@ -1,0 +1,67 @@
+.product_list_Container {
+
+    padding: 4px 0;
+    columns: 3 1vw;
+    column-gap: 2em;
+
+    margin: 40px 0;
+
+    padding-left: 50px;
+}
+
+.product_list_Card {
+    position: relative;
+
+    img {
+        height: 30%;
+        width: 100%;
+    }
+
+    p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .product_category {
+        color: $primary;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .product_title {
+        font-family: Gilda Display, serif;
+    }
+
+    .product_price {
+        font-weight: 600;
+    }
+
+
+    margin-bottom: 50px;
+}
+
+.product_info {
+    height: 90px;
+}
+
+
+.out_of_stock {
+    display: flex;
+    align-items: center;
+    font-family: Francois One, serif;
+    font-weight: 200;
+    white-space: nowrap;
+    position: absolute;
+    right: 10px;
+
+    height: 10%;
+    width: 60%;
+
+    padding: 0 20px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    overflow-x: hidden;
+}
