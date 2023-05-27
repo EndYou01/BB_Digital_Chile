@@ -116,6 +116,10 @@
     color: $secundary;
     font-weight: 600;
     font-size: 17px;
+
+    &:hover{
+        color: $primary;
+    }
 }
 
 .cantidad_productos {
@@ -183,10 +187,11 @@
     border-width: 2px;
     width: 100%;
     height: 50px;
+    color: rgba(255, 255, 255, 0.623);
+    padding-left: 20px;
 
     &::placeholder {
         color: rgba(255, 255, 255, 0.623);
-        padding-left: 20px;
         font-size: 17px;
     }
 }

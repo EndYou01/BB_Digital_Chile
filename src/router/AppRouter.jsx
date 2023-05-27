@@ -16,8 +16,8 @@ export const AppRouter = () => {
                 <Header />
 
                 <Routes>
-                    <Route path='/*' element={<IndexPage />} />
-                    <Route path='/product_page' element={<ProductPage />} />
+                    <Route path='/home' element={<IndexPage />} />
+                    <Route path='/:productId' element={<ProductPage />} />
                 </Routes>
 
                 <Footer />

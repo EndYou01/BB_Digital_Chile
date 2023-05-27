@@ -1,40 +1,42 @@
+import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 
-
-import React from 'react'
 import LeftMenu from './LeftMenu'
 import ProductList from '../productList/ProductList'
-import { data } from '../../../data/data'
 
+import { getRandomProducts } from '../../selectors/getRandomProducts'
+import { getProductsByCategory } from '../../selectors/getProductsByCategory'
 
 const NewArrivals = () => {
 
-    let products = []
+    const [products, setProducts] = useState([]);
+    const { category } = useSelector(state => state.ui)
 
-    data.map( (e,i) => {
-        if(i<9){
-            [products.push(e)]
-        }            
-    })
+    useEffect(() => {
+        setProducts(getRandomProducts())
+    }, []);
 
+
+    useEffect(() => {
+        if (category != '') {
+            setProducts(getProductsByCategory(category))
+        }
+    }, [category]);
 
     return (
         <section className='container'>
             <div className='newArrivals'>
                 <h2 className='navigation_button_active'>NEW ARRIVALS</h2>
 
-
                 <div className='newArrivls_section_container'>
 
-                    <LeftMenu/>
+                    <LeftMenu />
 
                     {/* ------------------------------------- */}
 
-                    <ProductList products={products}/>
-
+                    <ProductList products={products} />
 
                 </div>
-
-
             </div>
         </section>
     )

@@ -1,7 +1,8 @@
 import { types } from "../types/types";
 
 const initialState = {
-    activeNavButton: 'home'
+    activeNavButton: 'home',
+    category: ''
 }
 
 export const uiReducer = (state = initialState, action) => {
@@ -12,6 +13,12 @@ export const uiReducer = (state = initialState, action) => {
             return {
                 ...state,
                 activeNavButton: action.activeNavButton
+            }
+
+        case types.uiSetCategory:
+            return {
+                ...state,
+                category: action.category
             }
 
 

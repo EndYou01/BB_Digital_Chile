@@ -1,8 +1,13 @@
 
 
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { uiSetCategory } from '../../redux/actions/ui'
 
 const InitialSection = () => {
+
+    const dispatch = useDispatch()
+
     return (
         <section className='container'>
 
@@ -30,19 +35,31 @@ const InitialSection = () => {
                     <ul>
                         <li className='category_item'>
                             <img src="src\assets\main\baby.png" />
-                            <p className='category_name'>Baby & Toddler</p>
+                            <button
+                                onClick={() => dispatch(uiSetCategory('For Babies'))}
+                                className='category_name'>
+                                Baby & Toddler</button>
                         </li>
                         <li className='category_item'>
                             <img src="src\assets\main\girl.png" />
-                            <p className='category_name'>For Girls</p>
+                            <button
+                                onClick={() => dispatch(uiSetCategory('For Girls'))}
+                                className='category_name'>
+                                For Girls</button>
                         </li>
                         <li className='category_item'>
                             <img src="src\assets\main\boy.png" />
-                            <p className='category_name'>For Boys</p>
+                            <button
+                                onClick={() => dispatch(uiSetCategory('For Boys'))}
+                                className='category_name'>
+                                For Boys</button>
                         </li>
                         <li className='category_item'>
                             <img src="src\assets\main\toys.png" />
-                            <p className='category_name'>Home & Toys</p>
+                            <button
+                                onClick={() => dispatch(uiSetCategory('For Home'))}
+                                className='category_name'>
+                                Home & Toys</button>
                         </li>
                     </ul>
 

@@ -1,38 +1,37 @@
-
-
-.initialSection{
+.initialSection {
 
     margin: 40px 0;
 
 }
 
 
-.top_section{
+.top_section {
     display: flex;
     justify-content: space-between;
 
-    .jumpsuit_image{
+    .jumpsuit_image {
         position: relative;
 
 
-        h1, p{
+        h1,
+        p {
             color: white;
         }
 
-        h1{
+        h1 {
             font-family: Francois One, serif;
             text-transform: uppercase;
             font-size: 60px;
             font-weight: 500;
         }
 
-        p{
+        p {
             font-family: Quicksand;
             font-weight: 300;
         }
     }
 
-    .jumpsuit_image div{
+    .jumpsuit_image div {
         position: absolute;
 
         top: 50%;
@@ -40,34 +39,36 @@
     }
 }
 
-   
-.jumpsuit_image img{
+
+.jumpsuit_image img {
     max-width: 95%;
 }
 
-.girlPower_section{
+.girlPower_section {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    img{
+    img {
         max-width: 90%;
     }
-    h2{
+
+    h2 {
         text-align: center;
         margin: 20px 0
     }
-    p{
+
+    p {
         color: gray;
     }
 }
 
 
-.discover_button{
+.discover_button {
     background-color: white;
 
     margin-top: 20px;
-    
+
     border: none;
 
     width: 120px;
@@ -79,20 +80,21 @@
     font-family: Francois One, serif;
 
     position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 10%;
+        left: 6%;
+        width: 85%;
+        height: 70%;
+
+        border-style: dashed;
+        border-color: $secundary;
+        border-width: 2px;
+    }
 }
 
-.discover_button::after{
-    position: absolute;
-    content: "";
-    bottom: 10%;
-    left: 6%;
-    width: 85%;
-    height: 70%;
-
-    border-style: dashed;
-    border-color: $secundary;
-    border-width: 2px;
-}
 
 .category_section {
     margin-top: 50px;
@@ -103,16 +105,29 @@
     border-color: rgb(190, 190, 190);
     border-width: 1px;
 
-    ul{
+    ul {
         display: flex;
         justify-content: space-around;
 
         text-align: center;
     }
 
-    p{
-        margin-top: 10px;
+    button {
+        margin-top: 20px;
         font-weight: 600;
     }
-    
+
+}
+
+.category_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category_name {
+    background-color: transparent;
+    border: none;
+    color: $secundary;
+    cursor: pointer;
 }

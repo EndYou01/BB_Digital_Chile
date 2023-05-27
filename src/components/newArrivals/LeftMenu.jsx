@@ -1,10 +1,16 @@
 
 
+import { useDispatch } from "react-redux";
 
-import { FiSearch } from "react-icons/fi";
 import ValoracionStars from '../valoracionStars/valoracionStars';
 
+import { FiSearch } from "react-icons/fi";
+import { uiSetCategory } from "../../redux/actions/ui";
+
 const LeftMenu = () => {
+
+    const dispatch = useDispatch()
+
     return (
         <div className="left_menu">
             <div className="search_products">
@@ -18,23 +24,33 @@ const LeftMenu = () => {
                 <div className="categories_container">
                     <ul>
                         <li>
-                            <button className='categories_button'>For Babies</button>
+                            <button 
+                                onClick={() => dispatch(uiSetCategory('For Babies'))}
+                                className='categories_button'>For Babies</button>
                             <p className='cantidad_productos'>(11)</p>
                         </li>
                         <li>
-                            <button className='categories_button'>For Boys</button>
+                            <button 
+                                onClick={() => dispatch(uiSetCategory('For Boys'))}
+                                className='categories_button'>For Boys</button>
                             <p className='cantidad_productos'>(19)</p>
                         </li>
                         <li>
-                            <button className='categories_button'>For Girls</button>
+                            <button 
+                                onClick={() => dispatch(uiSetCategory('For Girls'))}
+                                className='categories_button'>For Girls</button>
                             <p className='cantidad_productos'>(14)</p>
                         </li>
                         <li>
-                            <button className='categories_button'>For Home</button>
+                            <button 
+                                onClick={() => dispatch(uiSetCategory('For Home'))}
+                                className='categories_button'>For Home</button>
                             <p className='cantidad_productos'>(20)</p>
                         </li>
                         <li>
-                            <button className='categories_button'>For Play</button>
+                            <button 
+                                onClick={() => dispatch(uiSetCategory('For Play'))}
+                                className='categories_button'>For Play</button>
                             <p className='cantidad_productos'>(8)</p>
                         </li>
                     </ul>
