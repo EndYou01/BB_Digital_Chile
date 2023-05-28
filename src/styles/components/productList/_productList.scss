@@ -6,7 +6,7 @@
     
     display: grid;
     column-gap: 30px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 14vw 14vw 14vw;
 
     margin: 40px 0;
 
@@ -116,6 +116,7 @@
 
 .product_image{
     height: 48vh;
+    max-height: 350px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;

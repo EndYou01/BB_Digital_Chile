@@ -40,6 +40,7 @@
 .info_section_container {
     margin-top: 100px;
     display: flex;
+    justify-content: space-between;
 }
 
 .image_section_container {
@@ -48,7 +49,7 @@
     flex-direction: column;
 
     img {
-        height: 500px;
+        height: 650px;
     }
 }
 
@@ -63,16 +64,20 @@
     }
 }
 
-.valoracionStars{
-    margin: 40px 0;
-}
+
 
 .info_section {
+    width: 55%;
     margin-left: 50px;
 }
 
 .add_to_wishlist{
-    margin: 40px 0;
+    display: flex;
+    align-items: center;
+
+    b{
+        margin-left: 10px;
+    }
 }
 
 .pp_add_to_cart_section {
@@ -136,7 +141,6 @@
     border-color: rgb(159, 159, 159);
     border-width: 1.5px;
     padding: 20px;
-    margin: 40px 0;
 
     p {
         display: flex;
@@ -161,4 +165,8 @@
         }
     }
 
+}
+
+.separator{
+    margin: 20px 0;
 }
