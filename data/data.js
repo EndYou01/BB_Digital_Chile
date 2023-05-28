@@ -7,7 +7,11 @@ export const data = [
         Cantidad_stock: 2,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "001",
         categoria: "For Girls",
@@ -22,7 +26,11 @@ export const data = [
         Cantidad_stock: 5,
         Tags: "blusa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "002",
         categoria: "For Girls",
@@ -37,7 +45,11 @@ export const data = [
         Cantidad_stock: 2,
         Tags: "abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "003",
         categoria: "For Girls",
@@ -51,7 +63,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "chaqueta",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "004",
         categoria: "For Girls",
@@ -66,7 +82,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "salla",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "005",
         categoria: "For Girls",
@@ -80,7 +100,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "006",
         categoria: "For Girls",
@@ -95,7 +119,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "blusa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "007",
         categoria: "For Girls",
@@ -109,7 +137,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 1,
         Sku: "008",
         categoria: "For Girls",
@@ -124,7 +156,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 4,
         Sku: "009",
         categoria: "For Girls",
@@ -139,7 +175,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 2,
         Sku: "010",
         categoria: "For Girls",
@@ -153,7 +193,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "011",
         categoria: "For Girls",
@@ -168,7 +212,11 @@ export const data = [
         Cantidad_stock: 8,
         Tags: "blusa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "012",
         categoria: "For Girls",
@@ -182,7 +230,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "SweetShirt",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "013",
         categoria: "For Girls",
@@ -196,7 +248,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "blusa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 4,
         Sku: "014",
         categoria: "For Girls",
@@ -211,7 +267,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "vestido",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 2,
         Sku: "015",
         categoria: "For Girls",
@@ -229,7 +289,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "Camisa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "016",
         categoria: "For Boys",
@@ -244,7 +308,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "017",
         categoria: "For Boys",
@@ -258,7 +326,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "Abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 2,
         Sku: "018",
         categoria: "For Boys",
@@ -273,7 +345,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "camisa, short, pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 4,
         Sku: "019",
         categoria: "For Boys",
@@ -287,7 +363,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "020",
         categoria: "For Boys",
@@ -302,7 +382,11 @@ export const data = [
         Cantidad_stock: 5,
         Tags: "abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 4,
         Sku: "021",
         categoria: "For Boys",
@@ -316,7 +400,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "022",
         categoria: "For Boys",
@@ -331,7 +419,11 @@ export const data = [
         Cantidad_stock: 2,
         Tags: "Traje, Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "023",
         categoria: "For Boys",
@@ -345,7 +437,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "Abrigo",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "024",
         categoria: "For Boys",
@@ -360,7 +456,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 2,
         Sku: "025",
         categoria: "For Boys",
@@ -374,7 +474,11 @@ export const data = [
         Cantidad_stock: 3,
         Tags: "Short",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 4,
         Sku: "026",
         categoria: "For Boys",
@@ -389,7 +493,11 @@ export const data = [
         Cantidad_stock: 4,
         Tags: "Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "027",
         categoria: "For Boys",
@@ -403,7 +511,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "Camisa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "028",
         categoria: "For Boys",
@@ -418,7 +530,11 @@ export const data = [
         Cantidad_stock: 0,
         Tags: "Pullover",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 5,
         Sku: "029",
         categoria: "For Boys",
@@ -432,7 +548,11 @@ export const data = [
         Cantidad_stock: 2,
         Tags: "Short",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "030",
         categoria: "For Boys",
@@ -447,7 +567,11 @@ export const data = [
         Cantidad_stock: 1,
         Tags: "Camisa",
         Descripción: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus",
-        Información_adicional: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima officiis enim eos, laborum aperiam earum culpa. Ullam et aperiam reiciendis laudantium, rerum provident cum, sint non similique reprehenderit, odit debitis. in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+        Información_adicional: {
+            color: 'Blue',
+            material: 'Cotton',
+            age: '6 Years'
+        },
         Valoración: 3,
         Sku: "031",
         categoria: "For Boys",

@@ -2,7 +2,7 @@
 
 import { useDispatch } from "react-redux";
 
-import ValoracionStars from '../valoracionStars/valoracionStars';
+import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
 
 import { FiSearch } from "react-icons/fi";
 import { uiSetCategory } from "../../redux/actions/ui";

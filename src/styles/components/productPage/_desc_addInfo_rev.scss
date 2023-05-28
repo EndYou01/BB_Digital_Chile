@@ -1,0 +1,150 @@
+.desc_addInfo_rev {
+    margin: 100px auto;
+
+    .separator {
+        margin: 50px 0;
+    }
+}
+
+.titles_section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+
+    h2 {
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+}
+
+
+.additional_information {
+    width: 100%;
+    border-style: dashed;
+    border-color: rgb(159, 159, 159);
+    border-width: 1.5px;
+    padding: 20px 100px;
+
+    p {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 10px 0;
+        display: flex;
+        width: 300px;
+
+        span {
+            color: rgb(118, 118, 118);
+            width: 100px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+
+    }
+
+    div {
+        border-bottom: 1px solid rgb(190, 190, 190);
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.dashed_cell {
+    width: 100%;
+    border-style: dashed;
+    border-color: rgb(159, 159, 159);
+    border-width: 1.5px;
+    padding: 40px;
+}
+
+.reviews_section {
+    h3 {
+        font-family: Gilda Display, serif;
+        font-size: 24px;
+    }
+}
+
+.center_gray {
+    color: rgb(131, 131, 131);
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+}
+
+.reviews_info {
+    margin-left: 40px;
+
+    p>span {
+        margin-left: 10px;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+}
+
+.your_review {
+    height: 200px;
+    padding-bottom: 150px;
+    font-size: 17px;
+
+    &::placeholder {
+        padding-bottom: 150px;
+        font-size: 17px;
+        color: rgb(131, 131, 131);
+    }
+}
+
+.name_email_subtmi_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        border-style: dashed;
+        border-color: rgb(131, 131, 131);
+        border-width: 1.5px;
+        margin: 10px 10px 0 0;
+        height: 50px;
+        padding-left: 20px;
+        width: 300px;
+    }
+    .name_email{
+        display: flex;
+    }
+
+    button{
+        position: relative;
+        width: 190px;
+        background-color: $primary;
+        height: 50px;
+        margin-top: 20px;
+        font-family: Francois One, serif;
+        border: none;
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 400;
+    
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 10%;
+            left: 3%;
+            width: 93%;
+            height: 70%;
+    
+            border-style: dashed;
+            border-color: white;
+            border-width: 2px;
+        }
+    }
+}
