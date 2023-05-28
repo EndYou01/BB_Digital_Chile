@@ -1,15 +1,18 @@
 import { useParams, NavLink, Navigate } from 'react-router-dom'
+import { useDispatch } from "react-redux";
 
 import { getProductByID } from '../selectors/getProductById';
 
 import Info_section_container from '../components/productPageComponents/Info_section_container';
 import Desc_AddInfo_Rev from '../components/productPageComponents/Desc_AddInfo_Rev';
 import Related_Products from '../components/productPageComponents/Related_Products';
+import { uiSetCategory } from '../redux/actions/ui';
 
 
 
 const ProductPage = () => {
 
+	const dispatch = useDispatch()
 
 	const { productId } = useParams();
 
@@ -24,7 +27,7 @@ const ProductPage = () => {
 		<section className='productPage'>
 			<div className='productPage_initSection'>
 				<h1>{product.título}</h1>
-				<p><b>Home</b> : <b><NavLink to='/home'>{product.categoria}</NavLink></b> : <span>{product.título}</span></p>
+				<p><b>Home</b> : <b><NavLink to='/home' onClick={(e)=>dispatch(uiSetCategory(e.target.innerHTML))}>{product.categoria}</NavLink></b> : <span>{product.título}</span></p>
 			</div>
 
 

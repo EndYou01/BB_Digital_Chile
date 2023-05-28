@@ -7,13 +7,15 @@ const Desc_AddInfo_Rev = ({ product }) => {
 
     const [activeSection, setActiveSection] = useState('Description');
 
-
     return (
         <div className="container desc_addInfo_rev">
 
             <div className="titles_section">
                 <h2 onClick={() => setActiveSection('Description')} className={activeSection == 'Description' ? 'navigation_button_active' : ''}>Description</h2>
-                <h2 onClick={() => setActiveSection('Additional_Information')} className={activeSection == 'Additional_Information' ? 'navigation_button_active' : ''}>Additional Information</h2>
+                {
+                    product.Cantidad_stock != 0 &&
+                    <h2 onClick={() => setActiveSection('Additional_Information')} className={activeSection == 'Additional_Information' ? 'navigation_button_active' : ''}>Additional Information</h2>
+                }
                 <h2 onClick={() => setActiveSection('Reviews')} className={activeSection == 'Reviews' ? 'navigation_button_active' : ''}>Reviews(1)</h2>
             </div>
 

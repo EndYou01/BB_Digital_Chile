@@ -1,21 +1,28 @@
 
 import { AiOutlineHeart } from "react-icons/ai";
 import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
+import { useEffect, useState } from "react";
 
 
-const Info_section_container = ({product}) => {
+const Info_section_container = ({ product }) => {
 
     let images = Object.values(product.Imágenes_asociadas)
+
+    const [activeImage, setActiveImage] = useState();
+
+    useEffect(() => {
+        setActiveImage(images[0])
+    }, [product]);
 
     return (
         <div className='container info_section_container'>
 
             <div className='image_section_container'>
-                <img src={product.Imágenes_asociadas[0]} />
+                <img src={activeImage} />
 
                 <div className='more_images_section'>
                     {images.map((image, index) => {
-                        return (images.length > 1 && <img src={image} key={index} />)
+                        return (images.length > 1 && <img src={image} key={index} onClick={() => setActiveImage(images[index])} />)
                     })}
                 </div>
             </div>

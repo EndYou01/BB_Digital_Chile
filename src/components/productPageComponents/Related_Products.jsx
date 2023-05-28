@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router"
 import { getProductsByCategory } from "../../selectors/getProductsByCategory"
 import ValoracionStars from "../valoracionStars/ValoracionStars"
+import { scrollToTop } from "../../functions/scrollToTop"
 
 
 
@@ -7,7 +9,12 @@ const Related_Products = ({ productCategory }) => {
 
     let products = getProductsByCategory(productCategory).splice(0, 4)
 
+    const navigate = useNavigate()
 
+    const handleSelectProduct = (id) => {
+        navigate(`../${id}`);
+        scrollToTop();
+    }
 
     return (
         <div className="related_products container">
@@ -44,7 +51,7 @@ const Related_Products = ({ productCategory }) => {
                                     <p className="product_category">{product.categoria}</p>
                                     <p className="product_title">{product.título}</p>
                                     {product.Cantidad_stock != 0 && <p className="product_price">${product.Precio}</p>}
-                                    <ValoracionStars numbersOfStars={product.Valoración} className='product_info_valoracionStar'/>
+                                    <ValoracionStars numbersOfStars={product.Valoración} className='product_info_valoracionStar' />
                                 </div>
                             </div>
                         )
