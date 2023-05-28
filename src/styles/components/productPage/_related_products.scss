@@ -1,0 +1,26 @@
+
+
+.related_products{
+
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.related_products_cards_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+
+    .product_list_Card{
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    .stars_colection{
+        display: flex;
+        justify-content: center;
+    }
+}

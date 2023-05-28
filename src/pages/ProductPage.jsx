@@ -4,6 +4,7 @@ import { getProductByID } from '../selectors/getProductById';
 
 import Info_section_container from '../components/productPageComponents/Info_section_container';
 import Desc_AddInfo_Rev from '../components/productPageComponents/Desc_AddInfo_Rev';
+import Related_Products from '../components/productPageComponents/Related_Products';
 
 
 
@@ -30,6 +31,8 @@ const ProductPage = () => {
 			<Info_section_container product={product}/>
 
 			<Desc_AddInfo_Rev product={product}/>
+
+			<Related_Products productCategory={product.categoria}/>
 
 		</section>
 
