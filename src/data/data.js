@@ -16,8 +16,8 @@ export const data = [
         Sku: "001",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-1-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-1-2-580x870.jpg"
+            0: "../../public/assets/for_girls/girls-1-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-1-2-580x870.jpg"
         }
     },
     {
@@ -35,8 +35,8 @@ export const data = [
         Sku: "002",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-2-2-580x870.jpg",
-            1: "src/assets/for_girls/girls-2-3-580x870.jpg"
+            0: "../../public/assets/for_girls/girls-2-2-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-2-3-580x870.jpg"
         }
     },
     {
@@ -54,7 +54,7 @@ export const data = [
         Sku: "003",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-2-580x870.jpg"
+            0: "../../public/assets/for_girls/girls-2-580x870.jpg"
         }
     },
     {
@@ -72,8 +72,8 @@ export const data = [
         Sku: "004",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-3-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-3-2-580x870.jpg"
+            0: "../../public/assets/for_girls/girls-3-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-3-2-580x870.jpg"
         }
     },
     {
@@ -91,7 +91,7 @@ export const data = [
         Sku: "005",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-3-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-3-580x870.jpg",
         }
     },
     {
@@ -109,8 +109,8 @@ export const data = [
         Sku: "006",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-4-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-4-2-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-4-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-4-2-580x870.jpg",
         }
     },
     {
@@ -128,7 +128,7 @@ export const data = [
         Sku: "007",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-4-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-4-580x870.jpg",
         }
     },
     {
@@ -146,8 +146,8 @@ export const data = [
         Sku: "008",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-6-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-6-2-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-6-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-6-2-580x870.jpg",
         }
     },
     {
@@ -165,8 +165,8 @@ export const data = [
         Sku: "009",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-7-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-7-2-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-7-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-7-2-580x870.jpg",
         }
     },
     {
@@ -184,7 +184,7 @@ export const data = [
         Sku: "010",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-7-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-7-580x870.jpg",
         }
     },
     {
@@ -202,8 +202,8 @@ export const data = [
         Sku: "011",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-8-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-8-2-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-8-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-8-2-580x870.jpg",
         }
     },
     {
@@ -221,7 +221,7 @@ export const data = [
         Sku: "012",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-8-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-8-580x870.jpg",
         }
     },
     {
@@ -239,7 +239,7 @@ export const data = [
         Sku: "013",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-9-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-9-580x870.jpg",
         }
     },
     {
@@ -257,8 +257,8 @@ export const data = [
         Sku: "014",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-10-1-580x870.jpg",
-            1: "src/assets/for_girls/girls-10-2-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-10-1-580x870.jpg",
+            1: "../../public/assets/for_girls/girls-10-2-580x870.jpg",
         }
     },
     {
@@ -276,7 +276,7 @@ export const data = [
         Sku: "015",
         categoria: "For Girls",
         Imágenes_asociadas: {
-            0: "src/assets/for_girls/girls-10-580x870.jpg",
+            0: "../../public/assets/for_girls/girls-10-580x870.jpg",
         }
     },
 
@@ -298,8 +298,8 @@ export const data = [
         Sku: "016",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-1-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-1-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-1-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-1-580x870.jpg",
         }
     },
     {
@@ -317,7 +317,7 @@ export const data = [
         Sku: "017",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-1-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-1-580x870(1).jpg",
         }
     },
     {
@@ -335,8 +335,8 @@ export const data = [
         Sku: "018",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-2-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-2-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-2-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-2-580x870(1).jpg",
         }
     },
     {
@@ -354,7 +354,7 @@ export const data = [
         Sku: "019",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-2-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-2-580x870.jpg",
         }
     },
     {
@@ -372,8 +372,8 @@ export const data = [
         Sku: "020",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-3-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-3-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-3-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-3-580x870(1).jpg",
         }
     },
     {
@@ -391,7 +391,7 @@ export const data = [
         Sku: "021",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-3-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-3-580x870.jpg",
         }
     },
     {
@@ -409,8 +409,8 @@ export const data = [
         Sku: "022",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-4-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-4-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-4-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-4-580x870.jpg",
         }
     },
     {
@@ -428,7 +428,7 @@ export const data = [
         Sku: "023",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-4-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-4-580x870(1).jpg",
         }
     },
     {
@@ -446,8 +446,8 @@ export const data = [
         Sku: "024",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-5-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-5-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-5-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-5-580x870.jpg",
         }
     },
     {
@@ -465,7 +465,7 @@ export const data = [
         Sku: "025",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-5-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-5-580x870(1).jpg",
         }
     },
     {
@@ -483,8 +483,8 @@ export const data = [
         Sku: "026",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-6-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-6-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-6-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-6-580x870.jpg",
         }
     },
     {
@@ -502,7 +502,7 @@ export const data = [
         Sku: "027",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-7-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-7-580x870.jpg",
         }
     },
     {
@@ -520,8 +520,8 @@ export const data = [
         Sku: "028",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-8-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-8-580x870(1).jpg",
+            0: "../../public/assets/for_boys/boys-8-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-8-580x870(1).jpg",
         }
     },
     {
@@ -539,7 +539,7 @@ export const data = [
         Sku: "029",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-8-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-8-580x870.jpg",
         }
     },
     {
@@ -557,8 +557,8 @@ export const data = [
         Sku: "030",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-10-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-10-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-10-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-10-580x870.jpg",
         }
     },
     {
@@ -576,8 +576,8 @@ export const data = [
         Sku: "031",
         categoria: "For Boys",
         Imágenes_asociadas: {
-            0: "src/assets/for_boys/boys-11-1-580x870.jpg",
-            1: "src/assets/for_boys/boys-11-580x870.jpg",
+            0: "../../public/assets/for_boys/boys-11-1-580x870.jpg",
+            1: "../../public/assets/for_boys/boys-11-580x870.jpg",
         }
     },
 
@@ -599,8 +599,8 @@ export const data = [
         Sku: "032",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-1-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-1-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-1-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-1-580x870.jpg",
         }
     },
     {
@@ -618,8 +618,8 @@ export const data = [
         Sku: "033",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-2-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-2-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-2-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-2-580x870.jpg",
         }
     },
     {
@@ -637,8 +637,8 @@ export const data = [
         Sku: "034",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-3-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-3-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-3-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-3-580x870.jpg",
         }
     },
     {
@@ -656,8 +656,8 @@ export const data = [
         Sku: "035",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-4-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-4-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-4-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-4-580x870.jpg",
         }
     },
     {
@@ -675,8 +675,8 @@ export const data = [
         Sku: "036",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-5-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-5-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-5-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-5-580x870.jpg",
         }
     },
     {
@@ -694,8 +694,8 @@ export const data = [
         Sku: "037",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-6-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-6-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-6-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-6-580x870.jpg",
         }
     },
     {
@@ -713,8 +713,8 @@ export const data = [
         Sku: "038",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-7-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-7-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-7-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-7-580x870.jpg",
         }
     },
     {
@@ -732,8 +732,8 @@ export const data = [
         Sku: "039",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-8-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-8-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-8-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-8-580x870.jpg",
         }
     },
     {
@@ -751,8 +751,8 @@ export const data = [
         Sku: "040",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-9-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-9-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-9-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-9-580x870.jpg",
         }
     },
     {
@@ -770,8 +770,8 @@ export const data = [
         Sku: "041",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-10-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-10-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-10-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-10-580x870.jpg",
         }
     },
     {
@@ -789,8 +789,8 @@ export const data = [
         Sku: "042",
         categoria: "For Babies",
         Imágenes_asociadas: {
-            0: "src/assets/for_babies/for-babies-11-1-580x870.jpg",
-            1: "src/assets/for_babies/for-babies-11-580x870.jpg",
+            0: "../../public/assets/for_babies/for-babies-11-1-580x870.jpg",
+            1: "../../public/assets/for_babies/for-babies-11-580x870.jpg",
         }
     },
 
@@ -811,8 +811,8 @@ export const data = [
         Sku: "043",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-1-1-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-1-1-580x870.jpg",
         }
     },
     {
@@ -830,8 +830,8 @@ export const data = [
         Sku: "044",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-2-2-580x870.jpg",
-            1: "src/assets/for_home/for-home-2-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-2-2-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-2-580x870.jpg",
         }
     },
     {
@@ -849,8 +849,8 @@ export const data = [
         Sku: "045",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-3-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-3-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-3-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-3-580x870.jpg",
         }
     },
     {
@@ -868,7 +868,7 @@ export const data = [
         Sku: "046",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-4-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-4-580x870.jpg",
         }
     },
     {
@@ -886,8 +886,8 @@ export const data = [
         Sku: "047",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-5-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-5-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-5-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-5-580x870.jpg",
         }
     },
     {
@@ -905,7 +905,7 @@ export const data = [
         Sku: "048",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-6-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-6-580x870.jpg",
         }
     },
     {
@@ -923,8 +923,8 @@ export const data = [
         Sku: "049",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-7-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-7-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-7-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-7-580x870.jpg",
         }
     },
     {
@@ -942,8 +942,8 @@ export const data = [
         Sku: "050",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-8-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-8-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-8-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-8-580x870.jpg",
         }
     },
     {
@@ -961,8 +961,8 @@ export const data = [
         Sku: "051",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-9-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-9-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-9-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-9-580x870.jpg",
         }
     },
     {
@@ -980,8 +980,8 @@ export const data = [
         Sku: "052",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-10-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-10-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-10-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-10-580x870.jpg",
         }
     },
     {
@@ -999,8 +999,8 @@ export const data = [
         Sku: "053",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-11-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-11-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-11-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-11-580x870.jpg",
         }
     },
     {
@@ -1018,8 +1018,8 @@ export const data = [
         Sku: "054",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-12-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-12-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-12-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-12-580x870.jpg",
         }
     },
     {
@@ -1037,8 +1037,8 @@ export const data = [
         Sku: "055",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-13-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-13-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-13-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-13-580x870.jpg",
         }
     },
     {
@@ -1056,8 +1056,8 @@ export const data = [
         Sku: "056",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-14-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-14-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-14-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-14-580x870.jpg",
         }
     },
     {
@@ -1075,8 +1075,8 @@ export const data = [
         Sku: "057",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-15-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-15-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-15-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-15-580x870.jpg",
         }
     },
     {
@@ -1094,8 +1094,8 @@ export const data = [
         Sku: "058",
         categoria: "For Home",
         Imágenes_asociadas: {
-            0: "src/assets/for_home/for-home-16-1-580x870.jpg",
-            1: "src/assets/for_home/for-home-16-580x870.jpg",
+            0: "../../public/assets/for_home/for-home-16-1-580x870.jpg",
+            1: "../../public/assets/for_home/for-home-16-580x870.jpg",
         }
     },
 
@@ -1117,8 +1117,8 @@ export const data = [
         Sku: "059",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-1-2-580x870.jpg",
-            1: "src/assets/for_play/toys-1-580x870.jpg",
+            0: "../../public/assets/for_play/toys-1-2-580x870.jpg",
+            1: "../../public/assets/for_play/toys-1-580x870.jpg",
         }
     },
     {
@@ -1136,7 +1136,7 @@ export const data = [
         Sku: "060",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-2-580x870.jpg",
+            0: "../../public/assets/for_play/toys-2-580x870.jpg",
         }
     },
     {
@@ -1154,7 +1154,7 @@ export const data = [
         Sku: "061",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-3-580x870.jpg",
+            0: "../../public/assets/for_play/toys-3-580x870.jpg",
         }
     },
     {
@@ -1172,8 +1172,8 @@ export const data = [
         Sku: "062",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-4-580x870.jpg",
-            1: "src/assets/for_play/toys-4-2-580x870.jpg",
+            0: "../../public/assets/for_play/toys-4-580x870.jpg",
+            1: "../../public/assets/for_play/toys-4-2-580x870.jpg",
         }
     },
     {
@@ -1191,7 +1191,7 @@ export const data = [
         Sku: "063",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-5-580x870.jpg",
+            0: "../../public/assets/for_play/toys-5-580x870.jpg",
         }
     },
     {
@@ -1209,7 +1209,7 @@ export const data = [
         Sku: "064",
         categoria: "For Play",
         Imágenes_asociadas: {
-            0: "src/assets/for_play/toys-6-580x870.jpg",
+            0: "../../public/assets/for_play/toys-6-580x870.jpg",
         }
     },
 ]
