@@ -2,8 +2,8 @@
 import { AiOutlineHeart } from "react-icons/ai";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
-import HomeLink from './HomeLink.jsx';
 
+import HomeLink from './HomeLink.jsx';
 
 const Header = () => {
 

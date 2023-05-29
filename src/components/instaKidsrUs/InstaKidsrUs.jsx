@@ -1,10 +1,5 @@
 
 
-import React from 'react'
-
-
-
-
 const InstaKidsrUs = () => {
 
     const arrayOfImages = [

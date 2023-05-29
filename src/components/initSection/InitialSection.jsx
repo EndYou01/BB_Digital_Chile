@@ -1,8 +1,8 @@
 
 
-import React from 'react'
 import { useDispatch } from 'react-redux'
-import { uiSetCategory } from '../../redux/actions/ui'
+
+import { uiSetCategory } from '../../redux/actions/ui.js'
 
 const InitialSection = () => {
 

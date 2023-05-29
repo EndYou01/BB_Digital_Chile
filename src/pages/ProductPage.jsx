@@ -1,12 +1,13 @@
 import { useParams, NavLink, Navigate } from 'react-router-dom'
 import { useDispatch } from "react-redux";
 
-import { getProductByID } from '../selectors/getProductById';
+import { getProductByID } from '../selectors/getProductById.js';
 
-import Info_section_container from '../components/productPageComponents/Info_section_container';
-import Desc_AddInfo_Rev from '../components/productPageComponents/Desc_AddInfo_Rev';
-import Related_Products from '../components/productPageComponents/Related_Products';
-import { uiSetCategory } from '../redux/actions/ui';
+import Info_section_container from '../components/productPageComponents/Info_section_container.jsx';
+import Desc_AddInfo_Rev from '../components/productPageComponents/Desc_AddInfo_Rev.jsx';
+import Related_Products from '../components/productPageComponents/Related_Products.jsx';
+
+import { uiSetCategory } from '../redux/actions/ui.js';
 
 
 

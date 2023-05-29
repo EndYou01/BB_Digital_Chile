@@ -1,6 +1,6 @@
 
 
-import ProductList_Card from "./ProductList_Card";
+import ProductList_Card from "./ProductList_Card.jsx";
 
 const ProductList = ({ products }) => {
 

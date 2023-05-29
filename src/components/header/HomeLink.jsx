@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom"
-import { uiSetActiveNavButton } from "../../redux/actions/ui";
 
-
+import { uiSetActiveNavButton } from "../../redux/actions/ui.js";
 
 const HomeLink = ({link}) => {
 

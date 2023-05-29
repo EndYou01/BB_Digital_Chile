@@ -1,7 +1,8 @@
 import { useState } from "react"
-import ValoracionStars from "../valoracionStars/ValoracionStars";
 
 import { Bounce } from "react-awesome-reveal";
+
+import ValoracionStars from "../valoracionStars/ValoracionStars.jsx";
 
 
 const Desc_AddInfo_Rev = ({ product }) => {

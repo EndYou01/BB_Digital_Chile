@@ -3,8 +3,10 @@ import { useNavigate } from "react-router"
 
 import { AiOutlineHeart } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
-import { scrollToTop } from "../../../functions/scrollToTop";
-import ValoracionStars from "../../valoracionStars/ValoracionStars";
+
+import { scrollToTop } from "../../../functions/scrollToTop.js";
+
+import ValoracionStars from "../../valoracionStars/ValoracionStars.jsx";
 
 const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => {
 

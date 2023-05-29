@@ -1,7 +1,7 @@
 
-import ProductList_Card from "../newArrivals/product_List/ProductList_Card"
+import ProductList_Card from "../newArrivals/product_List/ProductList_Card.jsx"
 
-import { getProductsByCategory } from "../../selectors/getProductsByCategory"
+import { getProductsByCategory } from "../../selectors/getProductsByCategory.js"
 
 const Related_Products = ({ productCategory }) => {
 

@@ -2,10 +2,10 @@
 import { useEffect, useState } from "react";
 
 import { AiOutlineHeart } from "react-icons/ai";
+import ReactImageMagnify from 'react-image-magnify';
 
 import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
 
-import ReactImageMagnify from 'react-image-magnify';
 
 const Info_section_container = ({ product }) => {
 

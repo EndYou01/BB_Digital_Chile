@@ -1,4 +1,4 @@
-import { types } from "../types/types";
+import { types } from "../types/types.js";
 
 
 export const uiSetActiveNavButton = (link) => ({ type: types.uiSetActiveNavButton, activeNavButton: link })
