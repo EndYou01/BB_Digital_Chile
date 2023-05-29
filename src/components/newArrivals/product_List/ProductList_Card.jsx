@@ -22,7 +22,7 @@ const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => {
             {products.map((product, key) => {
                 return (
                     <div
-                        className="product_list_Card"
+                        className="product_list_Card animate__animated animate__bounce"
                         key={key}
                         onClick={() => handleSelectProduct(product.Sku)}
                     >

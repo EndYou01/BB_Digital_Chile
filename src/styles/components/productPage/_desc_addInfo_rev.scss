@@ -15,6 +15,10 @@
     h2 {
         cursor: pointer;
         padding-bottom: 20px;
+
+        &:hover{
+            color: $primary!important;
+        }
     }
 }
 

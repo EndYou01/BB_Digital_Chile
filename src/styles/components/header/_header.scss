@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     p {
         color: white;
         font-weight: 600;
@@ -65,9 +65,10 @@
     background-position-y: bottom;
     background-size: 50px;
 
-    &:hover{
+    &:hover {
         color: $primary;
     }
+
 }
 
 .header_underline {
@@ -88,11 +89,11 @@
     height: auto;
 }
 
-.shopingCar_container{
+.shopingCar_container {
     position: relative;
 }
 
-.shopingCar_counter{
+.shopingCar_counter {
     position: absolute;
     color: white;
 

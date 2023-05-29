@@ -37,7 +37,8 @@ const Info_section_container = ({ product }) => {
                             largeImage: {
                                 src: activeImage,
                                 width: 1200,
-                                height: 1800
+                                height: 1800,
+                                className: 'large_image_container'
                             }
                         }} />
                     </div>
