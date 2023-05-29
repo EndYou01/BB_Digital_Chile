@@ -1,8 +1,11 @@
 
-import { AiOutlineHeart } from "react-icons/ai";
-import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
 import { useEffect, useState } from "react";
 
+import { AiOutlineHeart } from "react-icons/ai";
+
+import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
+
+import ReactImageMagnify from 'react-image-magnify';
 
 const Info_section_container = ({ product }) => {
 
@@ -14,12 +17,34 @@ const Info_section_container = ({ product }) => {
         setActiveImage(images[0])
     }, [product]);
 
+
+    console.log(activeImage)
+
     return (
         <div className='container info_section_container'>
 
-            <div className='image_section_container'>
-                <img src={activeImage} />
 
+
+            <div className='image_section_container'>
+                {/* <img src={activeImage} /> */}
+                {
+                    activeImage
+                    &&
+                    <div id="imageMagnifyer">
+                        <ReactImageMagnify {...{
+                            smallImage: {
+                                alt: 'Wristwatch by Ted Baker London',
+                                isFluidWidth: true,
+                                src: activeImage,
+                            },
+                            largeImage: {
+                                src: activeImage,
+                                width: 1200,
+                                height: 1800
+                            }
+                        }} />
+                    </div>
+                }
                 <div className='more_images_section'>
                     {images.map((image, index) => {
                         return (images.length > 1 && <img src={image} key={index} onClick={() => setActiveImage(images[index])} />)

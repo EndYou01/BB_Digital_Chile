@@ -48,9 +48,9 @@
     display: flex;
     flex-direction: column;
 
-    img {
-        height: 650px;
-    }
+    // img {
+    //     height: 650px;
+    // }
 }
 
 .more_images_section {
@@ -120,6 +120,7 @@
     margin-left: 5px;
     text-transform: uppercase;
     font-family: Francois One, serif;
+    z-index: 0;
 
     &::after {
         position: absolute;
@@ -169,4 +170,10 @@
 
 .separator{
     margin: 20px 0;
+}
+
+#imageMagnifyer{
+    width: auto;
+    height: 650px;
+    z-index: 1;
 }
