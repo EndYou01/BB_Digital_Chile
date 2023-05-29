@@ -20,25 +20,25 @@ export const LeftMenu = () => {
 
     const best_sellers = [
         {
-            image: '../../public/assets/main/for-home-15-300x300.jpg',
+            image: '/../../public/assets/main/for-home-15-300x300.jpg',
             title: 'Rabbit Casket',
             stars: 5,
             price: 17
         },
         {
-            image: '../../public/assets/main/girls-6-300x300.jpg',
+            image: '/../../public/assets/main/girls-6-300x300.jpg',
             title: 'Yellow Sweatshirt',
             stars: 4,
             price: 38
         },
         {
-            image: '../../public/assets/main/boys-3-1-300x300.jpg',
+            image: '/../../public/assets/main/boys-3-1-300x300.jpg',
             title: 'Line Sweater',
             stars: 4,
             price: 46
         },
         {
-            image: '../../public/assets/main/boys-4-300x300.jpg',
+            image: '/../../public/assets/main/boys-4-300x300.jpg',
             title: 'Grey Sweat',
             stars: 5,
             price: 80
