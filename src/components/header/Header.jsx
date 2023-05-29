@@ -3,9 +3,9 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
 
-import HomeLink from './HomeLink.jsx';
+import {HomeLink} from './HomeLink.jsx';
 
-const Header = () => {
+export const Header = () => {
 
 	const home_Links = [
 		'home',
@@ -50,5 +50,3 @@ const Header = () => {
 		</header>
 	)
 }
-
-export default Header

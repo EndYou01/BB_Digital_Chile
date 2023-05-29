@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 
 import { uiSetActiveNavButton } from "../../redux/actions/ui.js";
 
-const HomeLink = ({link}) => {
+export const HomeLink = ({link}) => {
 
     const dispatch = useDispatch()
 
@@ -20,4 +20,3 @@ const HomeLink = ({link}) => {
     )
 }
 
-export default HomeLink

@@ -1,9 +1,9 @@
 
-import ProductList_Card from "../newArrivals/product_List/ProductList_Card.jsx"
+import {ProductList_Card} from "../newArrivals/product_List/ProductList_Card.jsx"
 
 import { getProductsByCategory } from "../../selectors/getProductsByCategory.js"
 
-const Related_Products = ({ productCategory }) => {
+export const Related_Products = ({ productCategory }) => {
 
     let products = getProductsByCategory(productCategory).splice(0, 4)
 
@@ -20,5 +20,3 @@ const Related_Products = ({ productCategory }) => {
         </div>
     )
 }
-
-export default Related_Products

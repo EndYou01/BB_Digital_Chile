@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 
 import { uiSetCategory } from '../../redux/actions/ui.js'
 
-const InitialSection = () => {
+export const InitialSection = () => {
 
     const dispatch = useDispatch()
 
@@ -77,4 +77,3 @@ const InitialSection = () => {
     )
 }
 
-export default InitialSection

@@ -6,9 +6,9 @@ import { FiSearch } from "react-icons/fi";
 
 import { scrollToTop } from "../../../functions/scrollToTop.js";
 
-import ValoracionStars from "../../valoracionStars/ValoracionStars.jsx";
+import {ValoracionStars} from "../../valoracionStars/ValoracionStars.jsx";
 
-const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => {
+export const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => {
 
 
     const navigate = useNavigate()
@@ -72,5 +72,3 @@ const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => {
 
     )
 }
-
-export default ProductList_Card

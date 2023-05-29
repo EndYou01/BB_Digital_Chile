@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 
-import LeftMenu from './LeftMenu.jsx'
-import ProductList from './product_List/ProductList.jsx'
+import {LeftMenu} from './LeftMenu.jsx'
+import {ProductList} from './product_List/ProductList.jsx'
 
 import { getRandomProducts } from '../../selectors/getRandomProducts.js'
 import { getProductsByCategory } from '../../selectors/getProductsByCategory.js'
 
-const NewArrivals = () => {
+export const NewArrivals = () => {
 
     const [products, setProducts] = useState([]);
     const { category } = useSelector(state => state.ui)
@@ -41,5 +41,3 @@ const NewArrivals = () => {
         </section>
     )
 }
-
-export default NewArrivals

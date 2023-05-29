@@ -2,7 +2,7 @@
 
 import { AiFillStar } from "react-icons/ai";
 
-const ValoracionStars = ({ numbersOfStars }) => {
+export const ValoracionStars = ({ numbersOfStars }) => {
 
     let filledStars = Array(Math.min(numbersOfStars, 5)).fill(
         <AiFillStar className="star" />
@@ -26,5 +26,3 @@ const ValoracionStars = ({ numbersOfStars }) => {
         </div>
     )
 }
-
-export default ValoracionStars

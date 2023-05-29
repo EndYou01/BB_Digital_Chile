@@ -1,8 +1,8 @@
 
 
-import ProductList_Card from "./ProductList_Card.jsx";
+import {ProductList_Card} from "./ProductList_Card.jsx";
 
-const ProductList = ({ products }) => {
+export const ProductList = ({ products }) => {
 
     return (
         <div className="product_list_Container">
@@ -13,4 +13,3 @@ const ProductList = ({ products }) => {
     )
 }
 
-export default ProductList

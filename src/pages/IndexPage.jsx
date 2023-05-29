@@ -1,10 +1,10 @@
-import InstaKidsrUs from "../components/instaKidsrUs/InstaKidsrUs.jsx"
-import InitialSection from "../components/initSection/initialSection.jsx"
-import NewArrivals from "../components/newArrivals/NewArrivals.jsx"
+import {InstaKidsrUs} from "../components/instaKidsrUs/InstaKidsrUs.jsx"
+import {InitialSection} from "../components/initSection/InitialSection.jsx"
+import {NewArrivals} from "../components/newArrivals/NewArrivals.jsx"
 
 
 
-const IndexPage = () => {
+export const IndexPage = () => {
 	return (
 		<div>
 			<InitialSection />
@@ -13,5 +13,3 @@ const IndexPage = () => {
 		</div>
 	)
 }
-
-export default IndexPage

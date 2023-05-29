@@ -6,9 +6,9 @@ import { FiSearch } from "react-icons/fi";
 import { uiSetCategory } from "../../redux/actions/ui";
 import { getProductsByCategory } from "../../selectors/getProductsByCategory.js";
 
-import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
+import {ValoracionStars} from '../valoracionStars/ValoracionStars.jsx';
 
-const LeftMenu = () => {
+export const LeftMenu = () => {
 
     const dispatch = useDispatch()
 
@@ -103,5 +103,3 @@ const LeftMenu = () => {
         </div>
     )
 }
-
-export default LeftMenu

@@ -2,10 +2,10 @@ import { useState } from "react"
 
 import { Bounce } from "react-awesome-reveal";
 
-import ValoracionStars from "../valoracionStars/ValoracionStars.jsx";
+import {ValoracionStars} from "../valoracionStars/ValoracionStars.jsx";
 
 
-const Desc_AddInfo_Rev = ({ product }) => {
+export const Desc_AddInfo_Rev = ({ product }) => {
 
     const [activeSection, setActiveSection] = useState('Description');
 
@@ -104,5 +104,3 @@ const Desc_AddInfo_Rev = ({ product }) => {
         </div>
     )
 }
-
-export default Desc_AddInfo_Rev

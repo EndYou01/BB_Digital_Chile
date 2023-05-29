@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { ImInstagram } from "react-icons/im";
 import { FaTwitter } from "react-icons/fa";
 
-const Footer = () => {
+export const Footer = () => {
 
 	const footer_list = ['Shop',
 		'Sale',
@@ -56,8 +56,5 @@ const Footer = () => {
 
 			</footer>
 		</>
-
 	)
 }
-
-export default Footer

@@ -1,6 +1,6 @@
 
 
-const InstaKidsrUs = () => {
+export const InstaKidsrUs = () => {
 
     const arrayOfImages = [
         'src/assets/main/87339849_530805007551424_292323017375800029_nlow.jpg',
@@ -31,4 +31,4 @@ const InstaKidsrUs = () => {
     )
 }
 
-export default InstaKidsrUs
+

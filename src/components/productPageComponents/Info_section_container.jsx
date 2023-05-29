@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import ReactImageMagnify from 'react-image-magnify';
 
-import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
+import {ValoracionStars} from '../valoracionStars/ValoracionStars.jsx';
 
 
-const Info_section_container = ({ product }) => {
+export const Info_section_container = ({ product }) => {
 
     let images = Object.values(product.Imágenes_asociadas)
 
@@ -89,5 +89,3 @@ const Info_section_container = ({ product }) => {
         </div>
     )
 }
-
-export default Info_section_container

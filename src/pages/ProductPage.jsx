@@ -3,15 +3,13 @@ import { useDispatch } from "react-redux";
 
 import { getProductByID } from '../selectors/getProductById.js';
 
-import Info_section_container from '../components/productPageComponents/Info_section_container.jsx';
-import Desc_AddInfo_Rev from '../components/productPageComponents/Desc_AddInfo_Rev.jsx';
-import Related_Products from '../components/productPageComponents/Related_Products.jsx';
+import {Info_section_container} from '../components/productPageComponents/Info_section_container.jsx';
+import {Desc_AddInfo_Rev} from '../components/productPageComponents/Desc_AddInfo_Rev.jsx';
+import {Related_Products} from '../components/productPageComponents/Related_Products.jsx';
 
 import { uiSetCategory } from '../redux/actions/ui.js';
 
-
-
-const ProductPage = () => {
+export const ProductPage = () => {
 
 	const dispatch = useDispatch()
 
@@ -43,5 +41,3 @@ const ProductPage = () => {
 
 	)
 }
-
-export default ProductPage
