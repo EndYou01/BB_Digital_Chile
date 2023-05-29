@@ -710,7 +710,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 3,
-        Sku: "037",
+        Sku: "038",
         categoria: "For Babies",
         Imágenes_asociadas: {
             0: "src/assets/for_babies/for-babies-7-1-580x870.jpg",
@@ -729,7 +729,7 @@ export const data = [
             age: '4 Years'
         },
         Valoración: 5,
-        Sku: "038",
+        Sku: "039",
         categoria: "For Babies",
         Imágenes_asociadas: {
             0: "src/assets/for_babies/for-babies-8-1-580x870.jpg",
@@ -748,7 +748,7 @@ export const data = [
             age: '4 Years'
         },
         Valoración: 5,
-        Sku: "038",
+        Sku: "040",
         categoria: "For Babies",
         Imágenes_asociadas: {
             0: "src/assets/for_babies/for-babies-9-1-580x870.jpg",
@@ -767,7 +767,7 @@ export const data = [
             age: '3 Years'
         },
         Valoración: 4,
-        Sku: "039",
+        Sku: "041",
         categoria: "For Babies",
         Imágenes_asociadas: {
             0: "src/assets/for_babies/for-babies-10-1-580x870.jpg",
@@ -786,7 +786,7 @@ export const data = [
             age: '2 Years'
         },
         Valoración: 4,
-        Sku: "040",
+        Sku: "042",
         categoria: "For Babies",
         Imágenes_asociadas: {
             0: "src/assets/for_babies/for-babies-11-1-580x870.jpg",
@@ -808,7 +808,7 @@ export const data = [
             age: '6 Years'
         },
         Valoración: 5,
-        Sku: "041",
+        Sku: "043",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-1-580x870.jpg",
@@ -827,7 +827,7 @@ export const data = [
             age: '8 Years'
         },
         Valoración: 4,
-        Sku: "042",
+        Sku: "044",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-2-2-580x870.jpg",
@@ -846,7 +846,7 @@ export const data = [
             age: '8 Years'
         },
         Valoración: 3,
-        Sku: "043",
+        Sku: "045",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-3-1-580x870.jpg",
@@ -865,7 +865,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 3,
-        Sku: "044",
+        Sku: "046",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-4-580x870.jpg",
@@ -883,7 +883,7 @@ export const data = [
             age: '8 Years'
         },
         Valoración: 4,
-        Sku: "046",
+        Sku: "047",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-5-1-580x870.jpg",
@@ -902,7 +902,7 @@ export const data = [
             age: '2 Years'
         },
         Valoración: 5,
-        Sku: "045",
+        Sku: "048",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-6-580x870.jpg",
@@ -920,7 +920,7 @@ export const data = [
             age: '3 Years'
         },
         Valoración: 1,
-        Sku: "047",
+        Sku: "049",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-7-1-580x870.jpg",
@@ -939,7 +939,7 @@ export const data = [
             age: '8 Years'
         },
         Valoración: 2,
-        Sku: "048",
+        Sku: "050",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-8-1-580x870.jpg",
@@ -958,7 +958,7 @@ export const data = [
             age: '4 Years'
         },
         Valoración: 3,
-        Sku: "049",
+        Sku: "051",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-9-1-580x870.jpg",
@@ -977,7 +977,7 @@ export const data = [
             age: '5 Years'
         },
         Valoración: 2,
-        Sku: "050",
+        Sku: "052",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-10-1-580x870.jpg",
@@ -996,7 +996,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 4,
-        Sku: "051",
+        Sku: "053",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-11-1-580x870.jpg",
@@ -1015,7 +1015,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 5,
-        Sku: "052",
+        Sku: "054",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-12-1-580x870.jpg",
@@ -1034,7 +1034,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 4,
-        Sku: "053",
+        Sku: "055",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-13-1-580x870.jpg",
@@ -1053,7 +1053,7 @@ export const data = [
             age: '1 Years'
         },
         Valoración: 5,
-        Sku: "054",
+        Sku: "056",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-14-1-580x870.jpg",
@@ -1072,7 +1072,7 @@ export const data = [
             age: '5 Years'
         },
         Valoración: 4,
-        Sku: "055",
+        Sku: "057",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-15-1-580x870.jpg",
@@ -1091,7 +1091,7 @@ export const data = [
             age: '5 Years'
         },
         Valoración: 5,
-        Sku: "056",
+        Sku: "058",
         categoria: "For Home",
         Imágenes_asociadas: {
             0: "src/assets/for_home/for-home-16-1-580x870.jpg",
@@ -1114,7 +1114,7 @@ export const data = [
             age: '5 Years'
         },
         Valoración: 2,
-        Sku: "057",
+        Sku: "059",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-1-2-580x870.jpg",
@@ -1133,7 +1133,7 @@ export const data = [
             age: '7 Years'
         },
         Valoración: 5,
-        Sku: "058",
+        Sku: "060",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-2-580x870.jpg",
@@ -1151,7 +1151,7 @@ export const data = [
             age: '6 Years'
         },
         Valoración: 3,
-        Sku: "059",
+        Sku: "061",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-3-580x870.jpg",
@@ -1169,7 +1169,7 @@ export const data = [
             age: '6 Years'
         },
         Valoración: 4,
-        Sku: "060",
+        Sku: "062",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-4-580x870.jpg",
@@ -1188,7 +1188,7 @@ export const data = [
             age: '6 Years'
         },
         Valoración: 4,
-        Sku: "061",
+        Sku: "063",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-5-580x870.jpg",
@@ -1206,7 +1206,7 @@ export const data = [
             age: '6 Years'
         },
         Valoración: 5,
-        Sku: "062",
+        Sku: "064",
         categoria: "For Play",
         Imágenes_asociadas: {
             0: "src/assets/for_play/toys-6-580x870.jpg",
