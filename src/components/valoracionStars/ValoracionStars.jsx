@@ -4,24 +4,21 @@ import { AiFillStar } from "react-icons/ai";
 
 const ValoracionStars = ({ numbersOfStars }) => {
 
-    let result = []
+    let filledStars = Array(Math.min(numbersOfStars, 5)).fill(
+        <AiFillStar className="star" />
+    )
 
-    let i = 0
-
-    while (i < numbersOfStars && result.length < 5) {
-        result.push(<AiFillStar className="star" />)
-        i++
-    }
-
-    while (result.length < 5) {
-        result.push(<AiFillStar className="starDark" />)
+    while (filledStars.length < 5) {
+        filledStars.push(
+            <AiFillStar className="starDark" />
+        )
     }
 
     return (
         <div className="stars_colection">
-            {result.map((start, index) => {
+            {filledStars.map((start, key) => {
                 return (
-                    <span key={index}>
+                    <span key={key}>
                         {start}
                     </span>
                 )

@@ -7,6 +7,14 @@ import HomeLink from './homeLink';
 
 const Header = () => {
 
+	const home_Links = [
+		'home',
+		'shop features',
+		'Clothes',
+		'Pages',
+		'shortcodes',
+		'post types'
+	]
 
 	return (
 		<header>
@@ -18,34 +26,15 @@ const Header = () => {
 			</div>
 			<div className="navbar_section">
 				<ul className='navbar'>
-					<li>
-						<HomeLink link='home' />
-					</li>
-					<li>
-						<HomeLink link='shop features' />
-					</li>
-
-
-					<li>
-						<HomeLink link='Clothes' />
-
-					</li>
-
-					<li>
-						<HomeLink link='Pages' />
-
-					</li>
-
-					<li>
-						<HomeLink link='shortcodes' />
-
-					</li>
-
-					<li>
-						<HomeLink link='post types' />
-
-					</li>
-
+					{
+						home_Links.map((link, key) => {
+							return (
+								<li key={key}>
+									<HomeLink link={link} />
+								</li>
+							)
+						})
+					}
 					<li>
 						<div className='menu_icons_section'>
 							<AiOutlineHeart className='menu_icon' />

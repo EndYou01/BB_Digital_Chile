@@ -6,6 +6,13 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
 
+	const footer_list = ['Shop',
+		'Sale',
+		'Girls',
+		'Boys',
+		'Lookbook',
+		'Contacts']
+
 	return (
 		<>
 			<Wave fill='#FBB660'
@@ -23,24 +30,15 @@ const Footer = () => {
 					<img className='logo_image' src="src/assets/main/logo(1).png" alt="" />
 
 					<ul className='footer_list'>
-						<li>
-							<p>Shop</p>
-						</li>
-						<li>
-							<p>Sale</p>
-						</li>
-						<li>
-							<p>Girls</p>
-						</li>
-						<li>
-							<p>Boys</p>
-						</li>
-						<li>
-							<p>Lookbook</p>
-						</li>
-						<li>
-							<p>Contacts</p>
-						</li>
+						{
+							footer_list.map((element, key) => {
+								return (
+									<li key={key}>
+										<p>{element}</p>
+									</li>
+								)
+							})
+						}
 					</ul>
 
 					<ul className="footer_social_list">

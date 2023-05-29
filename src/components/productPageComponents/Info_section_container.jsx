@@ -23,10 +23,7 @@ const Info_section_container = ({ product }) => {
     return (
         <div className='container info_section_container'>
 
-
-
             <div className='image_section_container'>
-                {/* <img src={activeImage} /> */}
                 {
                     activeImage
                     &&
@@ -51,6 +48,7 @@ const Info_section_container = ({ product }) => {
                     })}
                 </div>
             </div>
+
 
             <div className="info_section separator">
                 <p><b>${product.Precio}.00</b></p>
@@ -85,11 +83,7 @@ const Info_section_container = ({ product }) => {
                     </div>
                 </div>
 
-
-
             </div>
-
-
 
         </div>
     )

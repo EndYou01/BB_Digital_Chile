@@ -2,14 +2,48 @@
 
 import { useDispatch } from "react-redux";
 
-import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
-
 import { FiSearch } from "react-icons/fi";
 import { uiSetCategory } from "../../redux/actions/ui";
+import { getProductsByCategory } from "../../selectors/getProductsByCategory.js";
+
+import ValoracionStars from '../valoracionStars/ValoracionStars.jsx';
 
 const LeftMenu = () => {
 
     const dispatch = useDispatch()
+
+    function number_of_products_per_category(category) {
+        return getProductsByCategory(category).length
+    }
+
+    const categories = ['For Babies', 'For Boys', 'For Girls', 'For Home', 'For Play']
+
+    const best_sellers = [
+        {
+            image: 'src/assets/main/for-home-15-300x300.jpg',
+            title: 'Rabbit Casket',
+            stars: 5,
+            price: 17
+        },
+        {
+            image: 'src/assets/main/girls-6-300x300.jpg',
+            title: 'Yellow Sweatshirt',
+            stars: 4,
+            price: 38
+        },
+        {
+            image: 'src/assets/main/boys-3-1-300x300.jpg',
+            title: 'Line Sweater',
+            stars: 4,
+            price: 46
+        },
+        {
+            image: 'src/assets/main/boys-4-300x300.jpg',
+            title: 'Grey Sweat',
+            stars: 5,
+            price: 80
+        }
+    ]
 
     return (
         <div className="left_menu">
@@ -23,36 +57,18 @@ const LeftMenu = () => {
 
                 <div className="categories_container">
                     <ul>
-                        <li>
-                            <button 
-                                onClick={() => dispatch(uiSetCategory('For Babies'))}
-                                className='categories_button'>For Babies</button>
-                            <p className='cantidad_productos'>(11)</p>
-                        </li>
-                        <li>
-                            <button 
-                                onClick={() => dispatch(uiSetCategory('For Boys'))}
-                                className='categories_button'>For Boys</button>
-                            <p className='cantidad_productos'>(19)</p>
-                        </li>
-                        <li>
-                            <button 
-                                onClick={() => dispatch(uiSetCategory('For Girls'))}
-                                className='categories_button'>For Girls</button>
-                            <p className='cantidad_productos'>(14)</p>
-                        </li>
-                        <li>
-                            <button 
-                                onClick={() => dispatch(uiSetCategory('For Home'))}
-                                className='categories_button'>For Home</button>
-                            <p className='cantidad_productos'>(20)</p>
-                        </li>
-                        <li>
-                            <button 
-                                onClick={() => dispatch(uiSetCategory('For Play'))}
-                                className='categories_button'>For Play</button>
-                            <p className='cantidad_productos'>(8)</p>
-                        </li>
+                        {
+                            categories.map((category, key) => {
+                                return (
+                                    <li key={key}>
+                                        <button
+                                            onClick={() => dispatch(uiSetCategory(category))}
+                                            className='categories_button'>{category}</button>
+                                        <p className='cantidad_productos'>({number_of_products_per_category(category)})</p>
+                                    </li>
+                                )
+                            })
+                        }
                     </ul>
                 </div>
             </div>
@@ -61,38 +77,20 @@ const LeftMenu = () => {
                 <h2>Best Sellers</h2>
 
                 <ul className="best_sellers_container">
-                    <li>
-                        <img src="src\assets\main\for-home-15-300x300.jpg" alt="" />
-                        <div className="best_sellers_info">
-                            <p>Rabbit Casket</p>
-                            <ValoracionStars numbersOfStars={5} />
-                            <p className="product_price">$17.00</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="src\assets\main\girls-6-300x300.jpg" alt="" />
-                        <div className="best_sellers_info">
-                            <p>Yellow Sweatshirt</p>
-                            <ValoracionStars numbersOfStars={4} />
-                            <p className="product_price">$38.00</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="src\assets\main\boys-3-1-300x300.jpg" alt="" />
-                        <div className="best_sellers_info">
-                            <p>Line Sweater</p>
-                            <ValoracionStars numbersOfStars={4} />
-                            <p className="product_price">$46.00</p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="src\assets\main\boys-4-300x300.jpg" alt="" />
-                        <div className="best_sellers_info">
-                            <p>Grey Sweat</p>
-                            <ValoracionStars numbersOfStars={4} />
-                            <p className="product_price">$80.00</p>
-                        </div>
-                    </li>
+                    {
+                        best_sellers.map((product, key) => {
+                            return (
+                                <li key={key}>
+                                    <img src={product.image} alt="best_seller_product" />
+                                    <div className="best_sellers_info">
+                                        <p>{product.title}</p>
+                                        <ValoracionStars numbersOfStars={product.stars} />
+                                        <p className="product_price">${product.price}.00</p>
+                                    </div>
+                                </li>
+                            )
+                        })
+                    }
                 </ul>
 
             </div>

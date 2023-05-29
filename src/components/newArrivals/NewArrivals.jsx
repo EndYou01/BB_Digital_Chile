@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 
 import LeftMenu from './LeftMenu'
-import ProductList from '../productList/ProductList'
+import ProductList from './product_List/ProductList.jsx'
 
 import { getRandomProducts } from '../../selectors/getRandomProducts'
 import { getProductsByCategory } from '../../selectors/getProductsByCategory'

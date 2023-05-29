@@ -8,6 +8,29 @@ const InitialSection = () => {
 
     const dispatch = useDispatch()
 
+    const category_items = [
+        {
+            image: 'src/assets/main/baby.png',
+            category: 'For Babies',
+            text: 'Baby & Toddler'
+        },
+        {
+            image: 'src/assets/main/girl.png',
+            category: 'For Girls',
+            text: 'For Girls'
+        },
+        {
+            image: 'src/assets/main/boy.png',
+            category: 'For Boys',
+            text: 'For Boys'
+        },
+        {
+            image: 'src/assets/main/toys.png',
+            category: 'For Home',
+            text: 'Home & Toys'
+        }
+    ]
+
     return (
         <section className='container'>
 
@@ -15,7 +38,7 @@ const InitialSection = () => {
 
                 <div className='top_section'>
                     <div className="jumpsuit_image">
-                        <img src="src\assets\main\slider-1.jpg" alt="jumpsuit_image" />
+                        <img src="src/assets/main/slider-1.jpg" alt="jumpsuit_image" />
                         <div>
                             <h1>Jumpsuits</h1>
                             <p>Confortable clothes for your litle baby</p>
@@ -24,49 +47,32 @@ const InitialSection = () => {
                     </div>
 
                     <div className="girlPower_section">
-                        <img src="src\assets\main\girls-power.jpg" alt="girl power image" />
+                        <img src="src/assets/main/girls-power.jpg" alt="girl power image" />
                         <h2>Gilr Power</h2>
                         <p>For a colorfull summer</p>
                     </div>
                 </div>
 
-
                 <div className='category_section'>
                     <ul>
-                        <li className='category_item'>
-                            <img src="src\assets\main\baby.png" />
-                            <button
-                                onClick={() => dispatch(uiSetCategory('For Babies'))}
-                                className='category_name'>
-                                Baby & Toddler</button>
-                        </li>
-                        <li className='category_item'>
-                            <img src="src\assets\main\girl.png" />
-                            <button
-                                onClick={() => dispatch(uiSetCategory('For Girls'))}
-                                className='category_name'>
-                                For Girls</button>
-                        </li>
-                        <li className='category_item'>
-                            <img src="src\assets\main\boy.png" />
-                            <button
-                                onClick={() => dispatch(uiSetCategory('For Boys'))}
-                                className='category_name'>
-                                For Boys</button>
-                        </li>
-                        <li className='category_item'>
-                            <img src="src\assets\main\toys.png" />
-                            <button
-                                onClick={() => dispatch(uiSetCategory('For Home'))}
-                                className='category_name'>
-                                Home & Toys</button>
-                        </li>
+                        {
+                            category_items.map((category_element, key) => {
+                                return (
+                                    <li className='category_item' key={key}>
+                                        <img src={category_element.image} />
+                                        <button
+                                            onClick={() => dispatch(uiSetCategory(category_element.category))}
+                                            className='category_name'
+                                        >
+                                            {category_element.text}
+                                        </button>
+                                    </li>
+                                )
+                            })
+                        }
                     </ul>
-
                 </div>
-
             </div>
-
         </section>
     )
 }
