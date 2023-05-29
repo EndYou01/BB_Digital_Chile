@@ -3,7 +3,7 @@
     display: grid;
     column-gap: 30px;
     grid-template-columns: 14vw 14vw 14vw;
-    grid-template-rows: 60vh;
+    grid-template-rows: 75vh;
 
     margin: 40px 0;
 
@@ -15,7 +15,7 @@
 .product_list_Card {
     position: relative;
     margin-bottom: 70px;
-    max-height: 50vh;
+    max-height: 446px;
 
     p {
         text-align: center;
@@ -82,7 +82,7 @@
     background-color: $primary;
     width: 100%;
     height: 50px;
-    bottom: 50px;
+    bottom: 100px;
 
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -115,8 +115,10 @@
 }
 
 .product_image{
-    height: 50vh;
-    max-height: 400px;
+    height: 48vh;
+    max-height: 350px;
+    // height: 50vh;
+    // max-height: 400px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
