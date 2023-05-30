@@ -65,14 +65,14 @@ export const Info_section_container = ({ product }) => {
                         ? <p className='add_to_wishlist separator'><AiOutlineHeart />  <b>Add to Wishlist</b></p>
                         : <div className='pp_add_to_cart_section separator'>
                             <div className='pp_add_to_cart'>
-                                <input type="number" className='pp_add_to_cart_input' placeholder='1' />
-                                <button className='pp_add_to_cart_button'>Add to cart</button>
+                                <input type="number" className='pp_add_to_cart_input dashed-cell dashed-cell-pd20' placeholder='1' />
+                                <button className='dashed-btn dashed-btn-primary'>Add to cart</button>
                             </div>
                             <p>The product is alredy in the wishlist!   <b>Browse Wishlist</b></p>
                         </div>
                 }
 
-                <div className="sku_category_tags separator">
+                <div className="sku_category_tags dashed-cell dashed-cell-pd20 separator">
                     <div>
                         <p><b>SKU:</b>	<span>{product.Sku}</span></p>
                     </div>

@@ -16,8 +16,8 @@
         cursor: pointer;
         padding-bottom: 20px;
 
-        &:hover{
-            color: $primary!important;
+        &:hover {
+            color: $primary !important;
         }
     }
 }
@@ -25,9 +25,7 @@
 
 .additional_information {
     width: 100%;
-    border-style: dashed;
-    border-color: rgb(159, 159, 159);
-    border-width: 1.5px;
+
     padding: 20px 100px;
 
     p {
@@ -54,14 +52,6 @@
             border-bottom: none;
         }
     }
-}
-
-.dashed_cell {
-    width: 100%;
-    border-style: dashed;
-    border-color: rgb(159, 159, 159);
-    border-width: 1.5px;
-    padding: 40px;
 }
 
 .reviews_section {
@@ -96,7 +86,8 @@
 
 .your_review {
     height: 200px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+    padding-left: 40px;
     font-size: 17px;
 
     &::placeholder {
@@ -113,42 +104,13 @@
     align-items: center;
 
     input {
-        border-style: dashed;
-        border-color: rgb(131, 131, 131);
-        border-width: 1.5px;
         margin: 10px 10px 0 0;
         height: 50px;
         padding-left: 20px;
         width: 300px;
     }
-    .name_email{
-        display: flex;
-    }
 
-    button{
-        position: relative;
-        width: 190px;
-        background-color: $primary;
-        height: 50px;
-        margin-top: 20px;
-        font-family: Francois One, serif;
-        border: none;
-        color: white;
-        font-size: 17px;
-        text-transform: uppercase;
-        font-weight: 400;
-    
-        &::after {
-            position: absolute;
-            content: "";
-            bottom: 10%;
-            left: 3%;
-            width: 93%;
-            height: 70%;
-    
-            border-style: dashed;
-            border-color: white;
-            border-width: 2px;
-        }
+    .name_email {
+        display: flex;
     }
 }

@@ -42,7 +42,7 @@ export const InitialSection = () => {
                         <div>
                             <h1>Jumpsuits</h1>
                             <p>Confortable clothes for your litle baby</p>
-                            <button className='discover_button'>Discover</button>
+                            <button className='dashed-btn dashed-btn-secundary'>Discover</button>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ export const InitialSection = () => {
                 </div>
 
                 <div className='category_section'>
-                    <ul>
+                    <ul className='dashed-cell dashed-cell-pd40'>
                         {
                             category_items.map((category_element, key) => {
                                 return (

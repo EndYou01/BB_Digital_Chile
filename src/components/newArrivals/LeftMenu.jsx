@@ -6,7 +6,7 @@ import { FiSearch } from "react-icons/fi";
 import { uiSetCategory } from "../../redux/actions/ui";
 import { getProductsByCategory } from "../../selectors/getProductsByCategory.js";
 
-import {ValoracionStars} from '../valoracionStars/ValoracionStars.jsx';
+import { ValoracionStars } from '../valoracionStars/ValoracionStars.jsx';
 
 export const LeftMenu = () => {
 
@@ -48,14 +48,14 @@ export const LeftMenu = () => {
     return (
         <div className="left_menu">
             <div className="search_products">
-                <input className='search_products_input' type="text" placeholder='Search products...' />
-                <button className='search_products_button'><FiSearch className='search_products_button_icon' /></button>
+                <input className='search_products_input dashed-cell' type="text" placeholder='Search products...' />
+                <button className='search_products_button dashed-btn dashed-btn-primary dashed-btn-wd60'><FiSearch className='search_products_button_icon' /></button>
             </div>
 
             <div className="categories">
                 <h2>categories</h2>
 
-                <div className="categories_container">
+                <div className="categories_container dashed-cell dashed-cell-pd20">
                     <ul>
                         {
                             categories.map((category, key) => {
@@ -76,7 +76,7 @@ export const LeftMenu = () => {
             <div className="best_sellers">
                 <h2>Best Sellers</h2>
 
-                <ul className="best_sellers_container">
+                <ul className="best_sellers_container dashed-cell dashed-cell-pd20">
                     {
                         best_sellers.map((product, key) => {
                             return (
@@ -97,8 +97,8 @@ export const LeftMenu = () => {
 
             <div className="join_our_newsletter">
                 <h3>Join Our <br /> Newsletter</h3>
-                <input className='join_our_newsletter_input' type="text" placeholder='Your Email Address*' />
-                <button className='join_our_newsletter_button'>Suscribe</button>
+                <input className='join_our_newsletter_input dashed-cell dashed-cell-clr255' type="text" placeholder='Your Email Address*' />
+                <button className='dashed-btn dashed-btn-third dashed-btn-wd100'>Suscribe</button>
             </div>
         </div>
     )

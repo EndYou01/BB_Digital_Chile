@@ -1,0 +1,103 @@
+.dashed-cell {
+    width: 100%;
+    border-style: dashed;
+    border-color: rgb(159, 159, 159);
+    border-width: 1.5px;
+
+    &-clr255 {
+        border-color: rgba(255, 255, 255, 0.623) !important;
+    }
+
+    &-pd40 {
+        padding: 40px;
+    }
+
+    &-pd20 {
+        padding: 20px;
+    }
+}
+
+.dashed-btn {
+    position: relative;
+    width: 190px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: Francois One, serif;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+
+
+    &-primary {
+        background-color: $primary;
+        color: white;
+
+        &::after {
+            border-color: white;
+
+        }
+    }
+
+    &-secundary {
+        background-color: white;
+        color: $secundary;
+
+
+        &::after {
+            border-color: $secundary;
+
+        }
+    }
+
+    &-third {
+        background-color: white;
+        color: $primary;
+
+
+        &::after {
+            border-color: $primary;
+
+        }
+    }
+
+    &-wd60 {
+        width: 60px;
+
+        &::after {
+            bottom: 7% !important;
+            left: 10% !important;
+            width: 75% !important;
+            height: 75% !important;
+        }
+    }
+
+    &-wd100{
+        width: 100%;
+    }
+
+    &-wd190 {
+        width: 190px;
+
+        &::after {
+            bottom: 10%!important;
+            left: 3%!important;
+            width: 93%!important;
+            height: 70%!important;
+        }
+    }
+    
+
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 10%;
+        left: 3%;
+        width: 93%;
+        height: 70%;
+
+        border-style: dashed;
+        border-width: 2px;
+    }
+
+}

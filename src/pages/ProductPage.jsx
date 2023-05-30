@@ -24,7 +24,7 @@ export const ProductPage = () => {
 	return (
 
 		<section className='productPage'>
-			<div className='productPage_initSection'>
+			<div className='productPage_initSection dashed-cell'>
 				<h1>{product.título}</h1>
 				<p><b>Home</b> : <b><NavLink to='/home' onClick={(e)=>dispatch(uiSetCategory(e.target.innerHTML))}>{product.categoria}</NavLink></b> : <span>{product.título}</span></p>
 			</div>

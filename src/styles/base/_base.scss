@@ -4,19 +4,6 @@ body {
 	margin: 0;
 }
 
-a {
-	font-family: Francois One, serif;
-}
-
-p {
-	font-family: Quicksand;
-	font-weight: 400;
-}
-
-* {
-	box-sizing: border-box;
-}
-
 h1,
 h2,
 h3,
@@ -31,27 +18,35 @@ a {
 	margin: 0px;
 	font-size: 1.2rem;
 	color: $secundary;
+	list-style: none;
 }
 
-.container {
-	width: 70%;
-	margin: 0 auto;
-}
-
-h2{
-	color: $secundary!important;
+h2 {
+	color: $secundary !important;
 	font-family: Francois One, serif;
 	text-transform: uppercase;
 	font-weight: 400;
 }
 
-ul{
+a {
+	font-family: Francois One, serif;
+}
+
+p {
+	font-family: Quicksand;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+ul {
 	padding-inline-start: 0;
 }
 
-li{
-	list-style: none;
-}
-*{
-	text-decoration: none;
+.container {
+	width: 70%;
+	margin: 0 auto;
 }

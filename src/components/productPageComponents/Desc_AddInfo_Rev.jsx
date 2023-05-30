@@ -2,7 +2,7 @@ import { useState } from "react"
 
 import { Bounce } from "react-awesome-reveal";
 
-import {ValoracionStars} from "../valoracionStars/ValoracionStars.jsx";
+import { ValoracionStars } from "../valoracionStars/ValoracionStars.jsx";
 
 
 export const Desc_AddInfo_Rev = ({ product }) => {
@@ -31,7 +31,7 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                     activeSection == 'Additional_Information'
                     &&
                     <Bounce direction="up" triggerOnce={true}>
-                        <div className="additional_information">
+                        <div className="additional_information dashed-cell">
                             <div>
                                 <p><b>Color:</b>	<span>{product.Información_adicional.color}</span></p>
                             </div>
@@ -52,9 +52,9 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                         <div className="reviews_section">
                             <p>1 review for {product.título}</p>
 
-                            <div className="dashed_cell reviews separator">
+                            <div className="dashed-cell dashed-cell-pd40 reviews separator">
                                 <div>
-                                    <img src="src\assets\main\bb_logo.png" alt="" />
+                                    <img src="assets/main/bb_logo.png" alt="" />
                                 </div>
                                 <div className="reviews_info">
                                     <p>cmsmasters       <span><b>December 5, 2018</b></span></p>
@@ -66,7 +66,7 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                             </div>
 
                             <h3 className="center_gray">Add a review</h3>
-                            <div className="dashed_cell">
+                            <div className="dashed-cell dashed-cell-pd40">
 
                                 <p className="center_gray">Your email address will not be published. Required fields are marked *</p>
 
@@ -76,21 +76,21 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                                     <ValoracionStars numbersOfStars={0} />
                                 </div>
 
-                                <input type="text" className="dashed_cell your_review" placeholder="Your Review" />
+                                <input type="text" className="dashed-cell your_review" placeholder="Your Review" />
 
                                 <div className="name_email_subtmi_section separator">
                                     <div className="name_email">
                                         <div>
                                             <p><b>Name*</b></p>
-                                            <input type="text" id="name" />
+                                            <input className="dashed-cell" type="text" id="name" />
                                         </div>
                                         <div>
                                             <p><b>Email*</b></p>
-                                            <input type="text" id="email" />
+                                            <input className="dashed-cell" type="text" id="email" />
                                         </div>
                                     </div>
 
-                                    <button>Submit</button>
+                                    <button className="dashed-btn dashed-btn-primary dashed-btn-wd190">Submit</button>
                                 </div>
 
                             </div>
