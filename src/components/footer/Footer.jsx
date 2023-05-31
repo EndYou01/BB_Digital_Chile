@@ -27,7 +27,7 @@ export const Footer = () => {
 			<footer>
 				<div className='footer_container container'>
 
-					<img className='logo_image' src="assets/main/logo(1).png" alt="" />
+					<img className='logo_image' src="assets/main/logo_retina.png" alt="" />
 
 					<ul className='footer_list'>
 						{

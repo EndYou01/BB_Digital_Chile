@@ -22,7 +22,7 @@ export const Header = () => {
 				<p>20% off all kidswear + free shipping when you spend $60 or more</p>
 			</div>
 			<div className="header_logo">
-				<img className='logo_image' src="assets/main/logo.png" alt="app-logo" />
+				<img className='logo_image' src="assets/main/logo-retina.png" alt="app-logo" />
 			</div>
 			<div className="navbar_section">
 				<ul className='navbar'>
