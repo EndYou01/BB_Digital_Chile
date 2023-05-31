@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { Bounce } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import { ValoracionStars } from "../valoracionStars/ValoracionStars.jsx";
 
@@ -25,12 +25,12 @@ export const Desc_AddInfo_Rev = ({ product }) => {
             <div className="separator">
                 {
                     activeSection == 'Description'
-                    && <Bounce direction="up" triggerOnce={true}><p className="description">{product.Descripción}</p></Bounce>
+                    && <Fade duration={500} direction="up" triggerOnce={true}><p className="description">{product.Descripción}</p></Fade>
                 }
                 {
                     activeSection == 'Additional_Information'
                     &&
-                    <Bounce direction="up" triggerOnce={true}>
+                    <Fade duration={500} direction="up" triggerOnce={true}>
                         <div className="additional_information dashed-cell">
                             <div>
                                 <p><b>Color:</b>	<span>{product.Información_adicional.color}</span></p>
@@ -42,13 +42,13 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                                 <p><b>Age:</b>	<span>{product.Información_adicional.age}</span></p>
                             </div>
                         </div>
-                    </Bounce>
+                    </Fade>
                 }
                 {
                     activeSection == 'Reviews'
                     &&
 
-                    <Bounce direction="up" triggerOnce={true}>
+                    <Fade duration={500} direction="up" triggerOnce={true}>
                         <div className="reviews_section">
                             <p>1 review for {product.título}</p>
 
@@ -95,7 +95,7 @@ export const Desc_AddInfo_Rev = ({ product }) => {
 
                             </div>
                         </div>
-                    </Bounce>
+                    </Fade>
 
                 }
             </div>

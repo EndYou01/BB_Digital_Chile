@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import ReactImageMagnify from 'react-image-magnify';
 
-import {ValoracionStars} from '../valoracionStars/ValoracionStars.jsx';
+import { ValoracionStars } from '../valoracionStars/ValoracionStars.jsx';
 
 
 export const Info_section_container = ({ product }) => {
@@ -12,13 +12,12 @@ export const Info_section_container = ({ product }) => {
     let images = Object.values(product.Imágenes_asociadas)
 
     const [activeImage, setActiveImage] = useState();
+    const [isLoading, setIsLoading] = useState();
 
     useEffect(() => {
         setActiveImage(images[0])
     }, [product]);
 
-
-    console.log(activeImage)
 
     return (
         <div className='container info_section_container'>
@@ -41,11 +40,28 @@ export const Info_section_container = ({ product }) => {
                                 className: 'large_image_container'
                             }
                         }} />
+                        {
+                            isLoading
+                            &&
+                            <div className="loading">
+                                <p className="loading_text">
+                                    Loading...
+                                </p>
+                            </div>
+                        }
                     </div>
                 }
                 <div className='more_images_section'>
                     {images.map((image, index) => {
-                        return (images.length > 1 && <img src={image} key={index} onClick={() => setActiveImage(images[index])} />)
+                        return (images.length > 1 && <img src={image} key={index} onClick={() => {
+
+                            setTimeout(() => {
+                                setIsLoading(false)
+                                setActiveImage(images[index])
+                            }, 1000);
+
+                            setIsLoading(true)
+                        }} />)
                     })}
                 </div>
             </div>

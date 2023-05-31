@@ -1,5 +1,9 @@
 .productPage {
     height: auto;
+
+    .product_info{
+        margin-top: 0!important;
+    }
 }
 
 .productPage_initSection {
@@ -78,6 +82,7 @@
 
     button {
         margin-top: 0 !important;
+        margin-left: 5px;
     }
 }
 
@@ -131,7 +136,23 @@
 }
 
 #imageMagnifyer {
+    position: relative;
     width: auto;
     z-index: 1;
+}
 
+.loading{
+    position: absolute;
+    top: 60px;
+    background: rgba(45, 46, 47, 0.459);;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .loading_text{
+        color: white;
+        font-size: 12px!important;
+    }
 }
