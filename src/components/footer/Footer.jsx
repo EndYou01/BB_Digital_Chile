@@ -1,4 +1,3 @@
-import Wave from 'react-wavify'
 
 import { FaFacebookF } from "react-icons/fa";
 import { ImInstagram } from "react-icons/im";
@@ -15,15 +14,8 @@ export const Footer = () => {
 
 	return (
 		<>
-			<Wave fill='#FBB660'
-				paused={false}
-				options={{
-					height: 20,
-					amplitude: 50,
-					speed: 0.1,
-					points: 10
-				}}
-			/>
+			<div className="box"></div>
+
 			<footer>
 				<div className='footer_container container'>
 
