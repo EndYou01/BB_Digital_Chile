@@ -9,7 +9,7 @@ import { ValoracionStars } from '../valoracionStars/ValoracionStars.jsx';
 
 export const Info_section_container = ({ product }) => {
 
-    let images = Object.values(product.Imágenes_asociadas)
+    let images = Object.values(product.associated_images)
 
     const [activeImage, setActiveImage] = useState();
     const [isLoading, setIsLoading] = useState();
@@ -68,13 +68,13 @@ export const Info_section_container = ({ product }) => {
 
 
             <div className="info_section separator">
-                <p><b>${product.Precio}.00</b></p>
+                <p><b>${product.price}.00</b></p>
 
                 <div className='separator'>
-                    <ValoracionStars numbersOfStars={product.Valoración} />
+                    <ValoracionStars numbersOfStars={product.valoration} />
                 </div>
 
-                <p>{product.Descripción}</p>
+                <p>{product.stock_quantity}</p>
 
                 {
                     product.Cantidad_stock == 0
@@ -93,10 +93,10 @@ export const Info_section_container = ({ product }) => {
                         <p><b>SKU:</b>	<span>{product.Sku}</span></p>
                     </div>
                     <div>
-                        <p><b>Category:</b>	<span>{product.categoria}</span></p>
+                        <p><b>Category:</b>	<span>{product.category}</span></p>
                     </div>
                     <div>
-                        <p><b>Tags:</b>	<span>{product.Tags}</span></p>
+                        <p><b>Tags:</b>	<span>{product.tags}</span></p>
                     </div>
                 </div>
 

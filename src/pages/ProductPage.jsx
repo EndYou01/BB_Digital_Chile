@@ -26,7 +26,7 @@ export const ProductPage = () => {
 		<section className='productPage'>
 			<div className='productPage_initSection dashed-cell'>
 				<h1>{product.título}</h1>
-				<p><b>Home</b> : <b><NavLink to='/home' onClick={(e)=>dispatch(uiSetCategory(e.target.innerHTML))}>{product.categoria}</NavLink></b> : <span>{product.título}</span></p>
+				<p><b>Home</b> : <b><NavLink to='/home' onClick={(e)=>dispatch(uiSetCategory(e.target.innerHTML))}>{product.category}</NavLink></b> : <span>{product.title}</span></p>
 			</div>
 
 
@@ -34,7 +34,7 @@ export const ProductPage = () => {
 
 			<Desc_AddInfo_Rev product={product}/>
 
-			<Related_Products productCategory={product.categoria}/>
+			<Related_Products productCategory={product.category}/>
 
 		</section>
 

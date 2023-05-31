@@ -25,7 +25,7 @@ export const Desc_AddInfo_Rev = ({ product }) => {
             <div className="separator">
                 {
                     activeSection == 'Description'
-                    && <Fade duration={500} direction="up" triggerOnce={true}><p className="description">{product.Descripción}</p></Fade>
+                    && <Fade duration={500} direction="up" triggerOnce={true}><p className="color-gray">{product.description}</p></Fade>
                 }
                 {
                     activeSection == 'Additional_Information'
@@ -33,13 +33,13 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                     <Fade duration={500} direction="up" triggerOnce={true}>
                         <div className="additional_information dashed-cell">
                             <div>
-                                <p><b>Color:</b>	<span>{product.Información_adicional.color}</span></p>
+                                <p><b>Color:</b>	<span>{product.additional_information.color}</span></p>
                             </div>
                             <div>
-                                <p><b>Material:</b>	<span>{product.Información_adicional.material}</span></p>
+                                <p><b>Material:</b>	<span>{product.additional_information.material}</span></p>
                             </div>
                             <div>
-                                <p><b>Age:</b>	<span>{product.Información_adicional.age}</span></p>
+                                <p><b>Age:</b>	<span>{product.additional_information.age}</span></p>
                             </div>
                         </div>
                     </Fade>
@@ -50,7 +50,7 @@ export const Desc_AddInfo_Rev = ({ product }) => {
 
                     <Fade duration={500} direction="up" triggerOnce={true}>
                         <div className="reviews_section">
-                            <p>1 review for {product.título}</p>
+                            <p>1 review for {product.title}</p>
 
                             <div className="dashed-cell dashed-cell-pd40 reviews separator">
                                 <div>
@@ -58,10 +58,10 @@ export const Desc_AddInfo_Rev = ({ product }) => {
                                 </div>
                                 <div className="reviews_info">
                                     <p>cmsmasters       <span><b>December 5, 2018</b></span></p>
-                                    <ValoracionStars numbersOfStars={product.Valoración} />
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque temporibus veniam dolor? Tenetur quaerat distinctio a, iure voluptates est reiciendis illo ratione cupiditate iste labore voluptatum autem dolor in.</p>
+                                    <ValoracionStars numbersOfStars={product.valoration} />
+                                    <p className="color-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis atque temporibus veniam dolor? Tenetur quaerat distinctio a, iure voluptates est reiciendis illo ratione cupiditate iste labore voluptatum autem dolor in.</p>
 
-                                    <p>Rated {product.Valoración} of 5</p>
+                                    <p>Rated {product.valoration} of 5</p>
                                 </div>
                             </div>
 

@@ -28,18 +28,18 @@ export const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => 
                         key={key}
                         onClick={() => handleSelectProduct(product.Sku)}
                     >
-                        {product.Cantidad_stock == 0 && <p className="out_of_stock">Out Of Stock</p>}
+                        {product.stock_quantity == 0 && <p className="out_of_stock">Out Of Stock</p>}
 
                         <div
                             onMouseEnter={() => {
-                                if (product.Imágenes_asociadas[1] != undefined) {
-                                    document.getElementById(`${key}`).style.backgroundImage = `url(\"${product.Imágenes_asociadas[1]}\")`;
+                                if (product.associated_images[1] != undefined) {
+                                    document.getElementById(`${key}`).style.backgroundImage = `url(\"${product.associated_images[1]}\")`;
                                 }
                             }}
                             onMouseLeave={() => {
-                                document.getElementById(`${key}`).style.backgroundImage = `url(\"${product.Imágenes_asociadas[0]}\")`;
+                                document.getElementById(`${key}`).style.backgroundImage = `url(\"${product.associated_images[0]}\")`;
                             }}
-                            style={{ backgroundImage: `url(\"${product.Imágenes_asociadas[0]}\")` }}
+                            style={{ backgroundImage: `url(\"${product.associated_images[0]}\")` }}
                             className="product_image"
                             id={(key + '')}
                         ></div>
@@ -49,19 +49,19 @@ export const ProductList_Card = ({ products, add_to_cart, valoracionStars }) => 
                             &&
                             <div className="add_to_cart">
                                 <AiOutlineHeart />
-                                {product.Cantidad_stock != 0 && <p>ADD TO CART</p>}
-                                {product.Cantidad_stock != 0 && <FiSearch />}
+                                {product.stock_quantity != 0 && <p>ADD TO CART</p>}
+                                {product.stock_quantity != 0 && <FiSearch />}
                             </div>
                         }
 
                         <div className="product_info">
-                            <p className="product_category">{product.categoria}</p>
-                            <p className="product_title">{product.título}</p>
-                            {product.Cantidad_stock != 0 && <p className="product_price">${product.Precio}</p>}
+                            <p className="product_category">{product.category}</p>
+                            <p className="product_title">{product.title}</p>
+                            {product.stock_quantity != 0 && <p className="product_price">${product.price}</p>}
                             {
                                 valoracionStars
                                 &&
-                                <ValoracionStars numbersOfStars={product.Valoración} className='product_info_valoracionStar' />
+                                <ValoracionStars numbersOfStars={product.valoration} className='product_info_valoracionStar' />
                             }
                         </div>
                     </div>
